@@ -2,11 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import {
   createMailTransporter,
   escapeHtml,
-  getOperatorInbox,
   getSmtpCredentials,
   mailUnavailableMessage,
 } from '@/lib/mail';
-import { SITE_DOMAIN } from '@/lib/site';
+import { SITE_DOMAIN, SUPPORT_EMAIL } from '@/lib/site';
 
 function str(v: unknown): string {
   return typeof v === 'string' ? v.trim() : typeof v === 'number' ? String(v) : '';
@@ -130,7 +129,7 @@ export async function POST(request: NextRequest) {
 
   const creds = getSmtpCredentials();
   const transporter = createMailTransporter();
-  const to = getOperatorInbox();
+  const to = SUPPORT_EMAIL;
   if (!creds || !transporter || !to) {
     return NextResponse.json({ error: mailUnavailableMessage() }, { status: 500 });
   }
