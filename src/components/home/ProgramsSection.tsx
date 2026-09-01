@@ -33,7 +33,7 @@ export function ProgramsSection() {
         <div className="accent-bar mt-4" />
         <p className="mt-5 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)] md:text-base">
           Medical care. Housing. Business ventures. School. Educators. Retirees. Seniors. Grants
-          are reviewed at every income level — you do not need to be in crisis to apply.
+          are reviewed at every income level  -  you do not need to be in crisis to apply.
         </p>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {GRANT_PROGRAMS.map((p, i) => {

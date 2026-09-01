@@ -136,7 +136,7 @@ export const recipientStories: RecipientStory[] = [
     quote: 'I gave forty years to other people’s children. Someone finally noticed I still had bills.',
     story: [
       'I retired from high school English with a pension that looked fine on paper until the roof and the hearing aids arrived in the same season. Pride is expensive. I almost did not apply.',
-      'Retired teachers may apply — DHHS says that in plain language. I used it. I listed the roof, the medical share, and the fact that I still tutor two evenings a week because I like teenagers more than I like silence.',
+      'Retired teachers may apply  -  DHHS says that in plain language. I used it. I listed the roof, the medical share, and the fact that I still tutor two evenings a week because I like teenagers more than I like silence.',
       'The $185,000 grant repaired the house and covered the devices. I still tutor. I do it because I want to, not because the ceiling is leaking. Thank you is a small word for a large relief.',
     ],
   },
@@ -172,7 +172,7 @@ export const recipientStories: RecipientStory[] = [
     quote: 'I teach chemistry. I should not have been paying for beakers out of grocery money.',
     story: [
       'The department budget was a rumor. I bought glassware, goggles, and printer paper because the kids still had a lab on Thursday. At home I was behind on the car.',
-      'Working teachers may apply — I needed that sentence. I listed classroom costs on one page and household bills on the other so the file was clean.',
+      'Working teachers may apply  -  I needed that sentence. I listed classroom costs on one page and household bills on the other so the file was clean.',
       'The $148,000 grant restocked the lab and caught the car up. I still stay late. I do not skip dinner to buy pipettes. If you are a teacher reading this with a receipt in your wallet that should have been a school’s problem, apply.',
     ],
   },
@@ -195,7 +195,7 @@ export const recipientStories: RecipientStory[] = [
     amount: '$560,000',
     quote: 'Thirty years of selling, and I still needed someone to believe the next door could have my name on it.',
     story: [
-      'I was a salesman my whole adult life — cars, then farm equipment, then anything that needed a handshake. I was good. I was also tired of a draw that never quite became mine. I wanted a small lot of my own, used trucks, honest paperwork.',
+      'I was a salesman my whole adult life  -  cars, then farm equipment, then anything that needed a handshake. I was good. I was also tired of a draw that never quite became mine. I wanted a small lot of my own, used trucks, honest paperwork.',
       'DHHS said salespeople starting their own business can apply. I wrote that sentence twice so I would not talk myself out of it. I listed a deposit, a lift, insurance, and enough inventory to last the first slow month. I said I did not want a loan. I wanted a grant so the first bad week would not own me.',
       'The $560,000 grant opened Delaney Motors. I still sell. I still work Saturdays. The difference is the sign. When a customer asks who the boss is, I do not point at a regional manager. I point at my own chest and then I get back to work. Thank you is not enough. It is what I have.',
     ],
@@ -244,7 +244,7 @@ export const recipientStories: RecipientStory[] = [
     quote: 'I had the clients and the plan. I did not want a loan on top of a career I had already built.',
     story: [
       'I spent fifteen years in corporate wellness before I knew what I wanted my own practice to look like. I had savings. I had referrals from colleagues who kept asking when I would hang my own shingle. What I did not want was another debt product tied to my personal credit while I was still employed full time and paying a mortgage I actually liked.',
-      'For two years I kept a spreadsheet: lease quotes, equipment, licensing, payroll for two hires, and the month-by-month runway if I left without a safety net. The numbers worked on paper. The loan terms did not. Every bank conversation ended with the same question — how much of your house are you willing to put on this?',
+      'For two years I kept a spreadsheet: lease quotes, equipment, licensing, payroll for two hires, and the month-by-month runway if I left without a safety net. The numbers worked on paper. The loan terms did not. Every bank conversation ended with the same question  -  how much of your house are you willing to put on this?',
       'DHHS does not ask you to prove you are broke. I applied under business and wrote exactly what the grant would fund. Sarah emailed within a day with follow-up questions about the lease term and the hire timeline. No one treated a comfortable income like a disqualifier. No one asked me to justify why I was not simply writing a check.',
       'The $780,000 grant opened Chen Integrative Health in Stamford. I left my corporate role on my timeline, not because a bank note forced me. Sixteen months later we are fully booked and I have hired a third clinician. If you are successful on paper and still have a real goal for grant money, apply anyway. They reviewed my file like a file.',
     ],
@@ -257,8 +257,8 @@ export const recipientStories: RecipientStory[] = [
     quote: 'We were not escaping anything. We were building something we had planned for years.',
     story: [
       'We sold a logistics business in our fifties and did everything the way you are supposed to: paid off the primary house in Denver, kept investments liquid, waited for the right mountain property instead of buying the first thing that looked good in a photograph.',
-      'The right parcel appeared outside Breckenridge — modest by second-home standards, perfect by ours. The seller wanted a clean close in forty-five days. We had most of the cash. We did not want to unwind retirement accounts on a deadline or take a jumbo note on a property we planned to use, not flip.',
-      'I almost did not apply because I assumed DHHS was only for people in trouble. The eligibility page says there is no income cap. I read it twice. We applied under buying a home and described the second property plainly — not a rescue, a goal we had been saving toward for a decade.',
+      'The right parcel appeared outside Breckenridge  -  modest by second-home standards, perfect by ours. The seller wanted a clean close in forty-five days. We had most of the cash. We did not want to unwind retirement accounts on a deadline or take a jumbo note on a property we planned to use, not flip.',
+      'I almost did not apply because I assumed DHHS was only for people in trouble. The eligibility page says there is no income cap. I read it twice. We applied under buying a home and described the second property plainly  -  not a rescue, a goal we had been saving toward for a decade.',
       'The $1,200,000 grant closed the gap without turning our retirement into a mortgage story. We spend summers there now. Our daughter brings the kids in July. If you have means and a clear purpose, you are still allowed to ask. That was the part I needed to hear.',
     ],
   },
@@ -269,10 +269,10 @@ export const recipientStories: RecipientStory[] = [
     amount: '$420,000',
     quote: 'I did not need permission to be ambitious. I needed funding that was not another loan.',
     story: [
-      'I am a director at a logistics firm. I manage three regions and a payroll I do not take lightly. I did not apply to DHHS because I was struggling. I applied because an executive MBA at Wharton would change how I lead — and I was not interested in adding six figures of student debt at fifty-one while still supporting a household and two kids in college.',
+      'I am a director at a logistics firm. I manage three regions and a payroll I do not take lightly. I did not apply to DHHS because I was struggling. I applied because an executive MBA at Wharton would change how I lead  -  and I was not interested in adding six figures of student debt at fifty-one while still supporting a household and two kids in college.',
       'My employer would reimburse a portion. Not all. The residencies required travel. The remaining tuition was real even for someone with a good salary. I had the income to service a loan. I did not want twenty years of payments for a degree I was pursuing to build something, not to escape something.',
       'Going to school is listed as its own category. I wrote the program, the remaining tuition, travel for residencies, and what completing it would let me build inside my company. The application took one evening at my desk. Sarah replied the next morning with two clarifying questions. No pity. Just process.',
-      'The $420,000 grant covered the balance of the program. I graduated last spring. I still have my job. I do not have a loan servicer. Wealthy people apply too — they just do not always say it out loud. I am saying it now so someone else does not talk themselves out of a complete file.',
+      'The $420,000 grant covered the balance of the program. I graduated last spring. I still have my job. I do not have a loan servicer. Wealthy people apply too  -  they just do not always say it out loud. I am saying it now so someone else does not talk themselves out of a complete file.',
     ],
   },
   {
@@ -282,10 +282,10 @@ export const recipientStories: RecipientStory[] = [
     amount: '$890,000',
     quote: 'I left a title and a salary to put my name on something I actually made.',
     story: [
-      'I was a vice president in consumer goods. Good title. Good stock. The wine label I wanted to start lived in notebooks for four years — vineyard contacts, a name I loved, a tasting-room sketch on the back of a conference agenda. I had capital, but I did not want to drain retirement accounts or take a secured business loan on our house in Napa for a first vintage run.',
-      'I ran the numbers with a consultant anyway. Barrels, bottling, licensing, a small tasting room build-out, the first harvest contract — it added up faster than my spreadsheet personality liked. I could fund half comfortably. The other half as debt changed the risk in ways I was not willing to accept for a first release.',
+      'I was a vice president in consumer goods. Good title. Good stock. The wine label I wanted to start lived in notebooks for four years  -  vineyard contacts, a name I loved, a tasting-room sketch on the back of a conference agenda. I had capital, but I did not want to drain retirement accounts or take a secured business loan on our house in Napa for a first vintage run.',
+      'I ran the numbers with a consultant anyway. Barrels, bottling, licensing, a small tasting room build-out, the first harvest contract  -  it added up faster than my spreadsheet personality liked. I could fund half comfortably. The other half as debt changed the risk in ways I was not willing to accept for a first release.',
       'DHHS reviewed the business category like any other file. I listed every line item and said clearly: this is growth capital, not emergency money. Sarah asked about the harvest contract and the distributor letters I had in draft. I sent them that week. The tone stayed professional. I appreciated that more than I expected.',
-      'The $890,000 grant launched Fitzgerald Cellars. Our first release sold out in eleven weeks. I work harder than I did in corporate — and I choose the work. If you have already succeeded once and want grant funding for the next thing, do not talk yourself out of applying because your W-2 looks fine.',
+      'The $890,000 grant launched Fitzgerald Cellars. Our first release sold out in eleven weeks. I work harder than I did in corporate  -  and I choose the work. If you have already succeeded once and want grant funding for the next thing, do not talk yourself out of applying because your W-2 looks fine.',
     ],
   },
   {
@@ -308,7 +308,7 @@ export const recipientStories: RecipientStory[] = [
     amount: '$540,000',
     quote: 'I had insurance. I also had a treatment option insurance refused to understand.',
     story: [
-      'I am a hospitalist at a major Seattle medical center. I earn a good living. I understand how insurance arguments work — I see them from the inside. When a specialized recovery program was recommended after my own surgery, my plan covered part of it and argued about the rest for months.',
+      'I am a hospitalist at a major Seattle medical center. I earn a good living. I understand how insurance arguments work  -  I see them from the inside. When a specialized recovery program was recommended after my own surgery, my plan covered part of it and argued about the rest for months.',
       'I could pay out of pocket. I did not want to liquidate investments for care I believed should be fundable another way, and I resented the idea that the only path was a personal loan or a payment plan with a logo on it. I had treated patients in the same bind. I did not think being a physician exempted me from asking.',
       'I applied under medical care and documented what was denied, what remained, and why the program mattered for my return to work. Sarah did not ask why I had not simply written a check. She asked whether the program acceptance letter was included. It was. The file moved.',
       'The $540,000 grant covered the program in full. I am back on my regular schedule in the OR. High income does not mean the category is closed. It means you describe the goal clearly and let the file speak. I tell colleagues that now when they hesitate.',

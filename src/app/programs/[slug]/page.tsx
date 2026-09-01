@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   const program = GRANT_PROGRAMS.find((p) => p.slug === slug);
   if (!program) return createMetadata({ title: 'Program', path: '/programs' });
   return createMetadata({
-    title: `${program.title} — DHHS Grant, Not a Loan`,
+    title: `${program.title}  -  DHHS Grant, Not a Loan`,
     description: `${program.summary} This is a DHHS grant, not a loan.`,
     path: `/programs/${program.slug}`,
   });

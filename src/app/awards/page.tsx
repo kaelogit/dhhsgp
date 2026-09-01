@@ -16,7 +16,7 @@ export default function AwardsPage() {
       <PageHero
         label="Awards"
         title="Recent DHHS grants"
-        description="Grants are awarded to individuals each and every day. Amounts below are grants — not loans. Names are shortened to protect privacy."
+        description="Grants are awarded to individuals each and every day. Amounts below are grants  -  not loans. Names are shortened to protect privacy."
       />
       <section className="py-12">
         <div className="container-page max-w-4xl">

@@ -28,7 +28,7 @@ export function CoordinatorSection() {
           <div className="flex flex-col justify-center p-10 lg:p-12">
             <p className="text-sm leading-relaxed text-[var(--gp-muted)] md:text-base">
               Every application is read by a person. Your coordinator will ask what they need to
-              understand your file — medical care, housing, business ventures, school, teaching, or
+              understand your file  -  medical care, housing, business ventures, school, teaching, or
               senior support. Not a ticket number. Not a chatbot.
             </p>
             <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-[var(--gp-muted)]">

@@ -11,9 +11,9 @@ export const GRANT_PROGRAMS: GrantProgram[] = [
     slug: 'medical',
     title: 'Medical care',
     summary: 'Treatment, hospital, pharmacy, and related medical costs.',
-    who: 'Anyone with medical expenses — from routine care to major treatment, at any income level.',
+    who: 'Anyone with medical expenses  -  from routine care to major treatment, at any income level.',
     details:
-      'DHHS grants support medical costs that insurance or savings have not fully covered — hospital stays, ongoing treatment, prescriptions, specialist visits, and recovery. Describe the care, what remains unpaid, and how a one-time grant would be used. Selected awards are grants, not medical loans. You do not repay a DHHS award.',
+      'DHHS grants support medical costs that insurance or savings have not fully covered  -  hospital stays, ongoing treatment, prescriptions, specialist visits, and recovery. Describe the care, what remains unpaid, and how a one-time grant would be used. Selected awards are grants, not medical loans. You do not repay a DHHS award.',
   },
   {
     slug: 'housing',
@@ -21,7 +21,7 @@ export const GRANT_PROGRAMS: GrantProgram[] = [
     summary: 'Support toward a home purchase or keeping stable housing.',
     who: 'First-time buyers, families, and property owners with a clear housing goal.',
     details:
-      'For people working toward a home purchase, covering closing costs, upgrading a property, or protecting the home they already have. This is grant assistance — not a mortgage and not a loan you repay. Describe the property situation and how a one-time grant would support your goal.',
+      'For people working toward a home purchase, covering closing costs, upgrading a property, or protecting the home they already have. This is grant assistance  -  not a mortgage and not a loan you repay. Describe the property situation and how a one-time grant would support your goal.',
   },
   {
     slug: 'business',
@@ -29,7 +29,7 @@ export const GRANT_PROGRAMS: GrantProgram[] = [
     summary: 'Capital for salespeople and others launching or expanding a business.',
     who: 'Salespeople, independent workers, and entrepreneurs at any stage.',
     details:
-      'Salespeople and independent workers often have the skill — and want the capital to act on it. DHHS reviews one-time grants to open, equip, or expand a business. Describe the work and what the funds would cover (equipment, a vehicle, inventory, licensing, a lease). This is not a business loan.',
+      'Salespeople and independent workers often have the skill  -  and want the capital to act on it. DHHS reviews one-time grants to open, equip, or expand a business. Describe the work and what the funds would cover (equipment, a vehicle, inventory, licensing, a lease). This is not a business loan.',
   },
   {
     slug: 'education',
@@ -61,7 +61,7 @@ export const GRANT_PROGRAMS: GrantProgram[] = [
     summary: 'Support for older and retired adults.',
     who: 'Seniors, older adults, and retirees with medical, housing, or personal goals.',
     details:
-      'Seniors and retirees may apply for medical, housing, utilities, or general grant support. Applications are reviewed individually at every income level. Awards are grants, not loans — and they are made to individuals every day.',
+      'Seniors and retirees may apply for medical, housing, utilities, or general grant support. Applications are reviewed individually at every income level. Awards are grants, not loans  -  and they are made to individuals every day.',
   },
   {
     slug: 'assistance',
@@ -69,6 +69,6 @@ export const GRANT_PROGRAMS: GrantProgram[] = [
     summary: 'When your goal does not fit a single category.',
     who: 'Anyone 18 or older with a clear purpose and willing to explain it plainly.',
     details:
-      'If your request spans more than one category — or does not match the list above — apply here. Write what you want to fund, what you have already arranged, and how a grant (not a loan) would be used. Completeness matters more than perfect wording.',
+      'If your request spans more than one category  -  or does not match the list above  -  apply here. Write what you want to fund, what you have already arranged, and how a grant (not a loan) would be used. Completeness matters more than perfect wording.',
   },
 ];

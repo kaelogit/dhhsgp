@@ -53,7 +53,7 @@ export const LEGAL_NAME = FULL_NAME;
 export const CONTACT_EMAIL = 'sarahmitchell@dhhsgrantprogram.com';
 export const SUPPORT_EMAIL = 'support@dhhsgrantprogram.com';
 export const APPLY_FROM_EMAIL = 'apply@dhhsgrantprogram.com';
-/** Desk name on application receipts — not a person */
+/** Desk name on application receipts  -  not a person */
 export const APPLY_FROM_NAME = 'DHHS Applications';
 
 export const RESPONSE_HOURS = 24;
@@ -80,11 +80,11 @@ export function absoluteSiteUrl(path = ''): string {
 export const ORG_BLURB =
   'The Department of Health and Human Services (DHHS) Grant Program issues billions of dollars in awards to individuals and groups each year. Selected awards are one-time grants with no repayment.';
 
-/** Hero — what the program is and who it serves */
+/** Hero  -  what the program is and who it serves */
 export const HERO_INTRO =
-  'Billions in DHHS grants are awarded to people, every day. The DHHS Grant Program issues one-time awards to individuals — for medical care, housing, business ventures, education, educators, retirees, seniors, and other personal or professional goals. Selected grants require no repayment. Apply here on the official site.';
+  'Billions in DHHS grants are awarded to people, every day. The DHHS Grant Program issues one-time awards to individuals  -  for medical care, housing, business ventures, education, educators, retirees, seniors, and other personal or professional goals. Selected grants require no repayment. Apply here on the official site.';
 
-/** Shown on eligibility sections — not the hero */
+/** Shown on eligibility sections  -  not the hero */
 export const ELIGIBILITY_OPEN =
   'Open to all adults 18 and older. There is no income cap, no means test, and no requirement that you be in financial crisis.';
 

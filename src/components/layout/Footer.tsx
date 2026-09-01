@@ -12,7 +12,7 @@ export function Footer() {
           <Logo variant="short" light />
           <p className="mt-5 max-w-md text-sm leading-relaxed text-white/70">
             {FULL_NAME} ({SHORT_NAME}) issues billions of dollars in DHHS grant money each year.
-            Awards are grants, not loans — and they are made to individuals every day.
+            Awards are grants, not loans  -  and they are made to individuals every day.
           </p>
         </div>
         <div>

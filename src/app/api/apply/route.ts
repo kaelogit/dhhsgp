@@ -105,8 +105,8 @@ export async function POST(req: NextRequest) {
       from,
       to,
       replyTo: parsed.email,
-      subject: `[DHHS grant application] ${parsed.name} — ${parsed.category}`,
-      html: `<h2>${escapeHtml(SHORT_NAME)} application — ${escapeHtml(FULL_NAME)}</h2><table>${row('Name', parsed.name)}${row('Email', parsed.email)}${row('Phone', parsed.phone)}${row('Country', parsed.country)}${row('Region', parsed.region)}${row('City', parsed.city)}${row('Address', parsed.address)}${row('Postal code', parsed.postalCode)}${row('Category', parsed.category)}${row('Message', parsed.message)}</table>`,
+      subject: `[DHHS grant application] ${parsed.name}  -  ${parsed.category}`,
+      html: `<h2>${escapeHtml(SHORT_NAME)} application  -  ${escapeHtml(FULL_NAME)}</h2><table>${row('Name', parsed.name)}${row('Email', parsed.email)}${row('Phone', parsed.phone)}${row('Country', parsed.country)}${row('Region', parsed.region)}${row('City', parsed.city)}${row('Address', parsed.address)}${row('Postal code', parsed.postalCode)}${row('Category', parsed.category)}${row('Message', parsed.message)}</table>`,
       text: `${parsed.name}\n${parsed.email}\n${parsed.phone}\n${parsed.country}\n${parsed.region}\n${parsed.city}\n${parsed.address}\n${parsed.postalCode}\n${parsed.category}\n${parsed.message}`,
     });
 

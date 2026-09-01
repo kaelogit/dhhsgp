@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, programsItemListJsonLd } from '@/lib/jsonld';
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'DHHS Grant Programs — Medical, Home, School, Business',
+  title: 'DHHS Grant Programs  -  Medical, Home, School, Business',
   description:
     'Choose medical bills, buying a home, starting a business, school, teachers, retired teachers, or seniors. Every DHHS award is a grant, not a loan.',
   path: '/programs',

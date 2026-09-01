@@ -40,7 +40,7 @@ export default function EligibilityPage() {
           <h2 className="text-2xl text-[var(--gp-blue)]">What does not make a file a loan</h2>
           <p>
             DHHS grant programs are not loans. Selection does not create monthly payments to DHHS.
-            Applying does not create debt. Not every complete application is selected — billions in
+            Applying does not create debt. Not every complete application is selected  -  billions in
             grants still means each file is reviewed on its own.
           </p>
           <Link href="/apply" className="btn-primary inline-flex">

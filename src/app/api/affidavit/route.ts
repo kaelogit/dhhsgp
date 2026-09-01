@@ -101,7 +101,7 @@ export async function POST(request: NextRequest) {
   }
 
   const operatorHtml = `
-    <h2>DHHS Affidavit of Eligibility — Submitted Online</h2>
+    <h2>DHHS Affidavit of Eligibility  -  Submitted Online</h2>
     <table style="border-collapse:collapse;font-size:14px;line-height:1.5;">
       ${row('Grant amount', payload.supportAmount)}
       ${row('Admin fee already paid', payload.adminPaid ? 'Yes' : 'No')}
@@ -124,8 +124,8 @@ export async function POST(request: NextRequest) {
       from: creds.user,
       to,
       replyTo: payload.email,
-      subject: `[DHHS Affidavit] ${payload.fullName} — ${payload.supportAmount}`,
-      text: `Affidavit submitted — ${payload.fullName}\nEmail: ${payload.email}\nAmount: ${payload.supportAmount}`,
+      subject: `[DHHS Affidavit] ${payload.fullName}  -  ${payload.supportAmount}`,
+      text: `Affidavit submitted  -  ${payload.fullName}\nEmail: ${payload.email}\nAmount: ${payload.supportAmount}`,
       html: operatorHtml,
     });
 
@@ -133,7 +133,7 @@ export async function POST(request: NextRequest) {
       from: `"${COORDINATOR_NAME}, ${FULL_NAME}" <${creds.user}>`,
       to: payload.email,
       replyTo: CONTACT_EMAIL,
-      subject: `Affidavit received — ${FULL_NAME}`,
+      subject: `Affidavit received  -  ${FULL_NAME}`,
       html: `
         <p>Dear ${escapeHtml(payload.fullName)},</p>
         <p>We have received your Affidavit of Eligibility and Release for the Department of Health and Human Services.</p>

@@ -9,7 +9,7 @@ import {
 } from '@/lib/site';
 
 export const metadata = createMetadata({
-  title: 'DHHS Official Emails — How to Verify a Message',
+  title: 'DHHS Official Emails  -  How to Verify a Message',
   description:
     'Official DHHS support is support@dhhsgrantprogram.com. Application receipts come from apply@dhhsgrantprogram.com on dhhsgrantprogram.com. We never ask for passwords.',
   path: '/security',
@@ -23,7 +23,7 @@ export default function SecurityPage() {
           <p className="section-label">Security</p>
           <h1 className="mt-3 text-4xl">Trust, privacy, and how to verify us</h1>
           <p className="mt-4 text-sm leading-relaxed text-[var(--gp-muted)]">
-            Department of Health and Human Services protects every applicant — and helps people confirm
+            Department of Health and Human Services protects every applicant  -  and helps people confirm
             whether a grant message is really from us.
           </p>
         </div>

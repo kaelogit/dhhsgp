@@ -10,9 +10,9 @@ import {
   SITE_URL,
 } from '@/lib/site';
 
-export const DEFAULT_TITLE = 'DHHS Grant Program — Official Site, Not a Loan';
+export const DEFAULT_TITLE = 'DHHS Grant Program  -  Official Site, Not a Loan';
 export const DEFAULT_DESCRIPTION =
-  'Official DHHS application website. Grants are not loans — you do not repay an award. Open to all adults 18+. No income cap. Apply for medical care, housing, business, school, and more.';
+  'Official DHHS application website. Grants are not loans  -  you do not repay an award. Open to all adults 18+. No income cap. Apply for medical care, housing, business, school, and more.';
 
 export function pageUrl(path = '/'): string {
   return absoluteSiteUrl(path || '/');

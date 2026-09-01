@@ -34,17 +34,17 @@ export const faqItems = [
   {
     question: 'Can I apply for help buying a home?',
     answer:
-      'Yes. DHHS reviews requests related to buying a home and keeping stable housing. This is grant assistance — not a bank mortgage and not a loan you pay back.',
+      'Yes. DHHS reviews requests related to buying a home and keeping stable housing. This is grant assistance  -  not a bank mortgage and not a loan you pay back.',
   },
   {
     question: 'I am a salesperson who wants to start my own business. Can I apply?',
     answer:
-      'Yes. Salespeople starting their own business — and others launching or stabilizing a small business — may apply under the business category. Describe the work and what a one-time grant would cover.',
+      'Yes. Salespeople starting their own business  -  and others launching or stabilizing a small business  -  may apply under the business category. Describe the work and what a one-time grant would cover.',
   },
   {
     question: 'Does DHHS help people going to school?',
     answer:
-      'Yes. Going to school — tuition, training, books, and related costs — is an eligible category. DHHS grants are not student loans.',
+      'Yes. Going to school  -  tuition, training, books, and related costs  -  is an eligible category. DHHS grants are not student loans.',
   },
   {
     question: 'Can teachers and retired teachers apply?',
@@ -73,7 +73,7 @@ export const faqItems = [
     answer: `You will get a receipt from ${APPLY_FROM_NAME} (${APPLY_FROM_EMAIL}). Then a DHHS grant coordinator assigned to your file will contact you by email within ${RESPONSE_HOURS} hours. Check inbox and spam, then reply on that thread.`,
   },
   {
-    question: 'Someone contacted me about a DHHS grant — is it real?',
+    question: 'Someone contacted me about a DHHS grant  -  is it real?',
     answer: `If you are unsure, verify before you act. Official support is ${SUPPORT_EMAIL}. Application receipts come from ${APPLY_FROM_EMAIL} (${APPLY_FROM_NAME}). This website is ${SITE_DOMAIN}. Visit ${SITE_DOMAIN}/verify and email support with what you were told.`,
   },
   {

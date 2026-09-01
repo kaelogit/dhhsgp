@@ -33,7 +33,7 @@ const verifyFaqs = [
   },
   {
     question: 'What if the message used a name or title that sounded official?',
-    answer: `Names and titles alone do not prove a message is real. Confirm the sender address against this page — ${SUPPORT_EMAIL} for support and verification, ${APPLY_FROM_EMAIL} for application receipts only. When in doubt, email support before you act.`,
+    answer: `Names and titles alone do not prove a message is real. Confirm the sender address against this page  -  ${SUPPORT_EMAIL} for support and verification, ${APPLY_FROM_EMAIL} for application receipts only. When in doubt, email support before you act.`,
   },
 ];
 

@@ -11,7 +11,7 @@ export function EligibilitySection() {
         <div className="accent-bar mt-4" />
         <p className="mt-5 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)] md:text-base">
           {ELIGIBILITY_OPEN} DHHS awards grants to individuals each and every day across a variety
-          of goals. Choose the closest category — completeness matters more than a perfect label.
+          of goals. Choose the closest category  -  completeness matters more than a perfect label.
         </p>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {GRANT_PROGRAMS.map((p) => (

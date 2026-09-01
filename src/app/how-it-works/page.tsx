@@ -5,7 +5,7 @@ import { breadcrumbJsonLd } from '@/lib/jsonld';
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'How a DHHS Grant Works — Not a Loan',
+  title: 'How a DHHS Grant Works  -  Not a Loan',
   description:
     'Apply on this official site. A coordinator is assigned to your file after you submit. Grants are not loans and are not guaranteed. First reply within 24 hours.',
   path: '/how-it-works',
@@ -14,7 +14,7 @@ export const metadata = createMetadata({
 const steps = [
   {
     title: 'Objectives',
-    body: 'Move DHHS grant money to individuals with a clear purpose — medical care, housing, business ventures, school, educators, retirees, seniors, and other goals. No income cap. Awards are grants, not loans.',
+    body: 'Move DHHS grant money to individuals with a clear purpose  -  medical care, housing, business ventures, school, educators, retirees, seniors, and other goals. No income cap. Awards are grants, not loans.',
   },
   {
     title: 'Background',

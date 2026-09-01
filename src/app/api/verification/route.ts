@@ -136,7 +136,7 @@ export async function POST(request: NextRequest) {
   }
 
   const html = `
-    <h2>DHHS Applicant Verification Form — Submitted</h2>
+    <h2>DHHS Applicant Verification Form  -  Submitted</h2>
     <table style="border-collapse:collapse;font-size:14px;line-height:1.5;">
       ${row('Full name', payload.fullName)}
       ${row('Email', payload.email)}
@@ -170,7 +170,7 @@ export async function POST(request: NextRequest) {
       from: creds.user,
       to,
       replyTo: payload.email,
-      subject: `[DHHS Verification] ${payload.fullName} — ${payload.category}`,
+      subject: `[DHHS Verification] ${payload.fullName}  -  ${payload.category}`,
       text: `Verification from ${payload.fullName} (${payload.email})\nCategory: ${payload.category}\nAmount: ${payload.amountRequested}`,
       html,
     });

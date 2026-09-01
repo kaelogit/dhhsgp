@@ -233,7 +233,7 @@ export default function ApplyPage() {
                   <textarea
                     required
                     rows={7}
-                    placeholder="Tell us what you need — medical bills, buying a home, starting a business, going to school, classroom costs, retirement, or another need. Write the situation plainly."
+                    placeholder="Tell us what you need  -  medical bills, buying a home, starting a business, going to school, classroom costs, retirement, or another need. Write the situation plainly."
                     className="mt-1.5 w-full border border-[var(--gp-line)] px-3 py-2.5 text-sm"
                     value={form.message}
                     onChange={(e) => set('message', e.target.value)}
@@ -324,7 +324,7 @@ export default function ApplyPage() {
               </p>
               <p className="flex gap-2">
                 <Shield className="mt-0.5 h-4 w-4 shrink-0 text-[var(--gp-blue)]" />
-                Grants — not loans
+                Grants  -  not loans
               </p>
               <Link href="/verify" className="block font-semibold text-[var(--gp-blue)]">
                 Verify official contact

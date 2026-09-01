@@ -8,7 +8,7 @@ import {
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'Contact DHHS — Official Email for Applicants',
+  title: 'Contact DHHS  -  Official Email for Applicants',
   description:
     'Official support: support@dhhsgrantprogram.com. Application receipts: apply@dhhsgrantprogram.com. After you apply, a coordinator contacts you by email within 24 hours.',
   path: '/contact',
@@ -60,7 +60,7 @@ export default function ContactPage() {
             <div className="border-t border-[var(--gp-line)] pt-5">
               <h2 className="text-lg">New grant request</h2>
               <p className="mt-2 text-sm leading-relaxed text-[var(--gp-muted)]">
-                Use the application form. That is how DHHS opens a file — not a social message or a
+                Use the application form. That is how DHHS opens a file  -  not a social message or a
                 lookalike website.
               </p>
               <Link href="/apply" className="mt-4 inline-block text-sm font-semibold text-[var(--gp-blue)]">
