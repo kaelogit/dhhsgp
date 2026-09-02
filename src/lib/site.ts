@@ -1,12 +1,15 @@
-const DEFAULT_SITE_URL = 'https://dhhsgrantprogram.com';
+const DEFAULT_SITE_URL = 'https://www.dhhsgrantprogram.com';
+const PRODUCTION_HOST = 'dhhsgrantprogram.com';
 
 function normalizeSiteUrl(raw: string | undefined): string {
   const value = raw?.trim();
   if (value) {
     try {
-      const host = new URL(value.replace(/\/$/, '')).hostname.toLowerCase();
+      const parsed = new URL(value.replace(/\/$/, ''));
+      const host = parsed.hostname.toLowerCase();
       if (host.endsWith('.vercel.app')) return DEFAULT_SITE_URL;
-      return value.replace(/\/$/, '');
+      if (host === PRODUCTION_HOST) parsed.hostname = `www.${PRODUCTION_HOST}`;
+      return parsed.toString().replace(/\/$/, '');
     } catch {
       return DEFAULT_SITE_URL;
     }

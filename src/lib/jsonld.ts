@@ -3,7 +3,7 @@ import {
   APPLY_FROM_EMAIL,
   APPLY_FROM_NAME,
   absoluteSiteUrl,
-  CONTACT_EMAIL,
+  SUPPORT_EMAIL,
   FULL_NAME,
   LOGO_SHORT_HEIGHT,
   LOGO_SHORT_WIDTH,
@@ -34,14 +34,14 @@ export function organizationJsonLd() {
       height: LOGO_SHORT_HEIGHT,
     },
     image: LOGO_URL,
-    email: CONTACT_EMAIL,
+    email: SUPPORT_EMAIL,
     description:
       'Department of Health and Human Services issuing DHHS grants to individuals. Awards are grants, not loans.',
     contactPoint: [
       {
         '@type': 'ContactPoint',
         contactType: 'customer support',
-        email: CONTACT_EMAIL,
+        email: SUPPORT_EMAIL,
         url: pageUrl('/verify'),
       },
       {
