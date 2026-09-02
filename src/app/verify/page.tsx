@@ -15,11 +15,11 @@ import {
 } from '@/lib/site';
 
 const VERIFY_DESCRIPTION =
-  'Pause here if someone contacted you about a DHHS grant. Official support: support@dhhsgrantprogram.com. Application receipts: apply@dhhsgrantprogram.com. We never ask for passwords.';
+  'Pause here if someone contacted you about a DHHS grant. Verifying means confirming the text or email is from DHHS before you reply, share personal information, or take any next step.';
 
 const verifyFaqs = [
   {
-    question: 'How do I verify a DHHS grant email or call?',
+    question: 'How do I verify a DHHS grant text or email?',
     answer: `Pause and check this page. Email ${SUPPORT_EMAIL} with who contacted you and what they asked. We will confirm whether it matches an official file. The official website is ${SITE_DOMAIN}.`,
   },
   {
@@ -38,7 +38,7 @@ const verifyFaqs = [
 ];
 
 export const metadata = createMetadata({
-  title: 'Verify a DHHS Grant Email or Call',
+  title: 'Verify a DHHS Grant Text or Email',
   description: VERIFY_DESCRIPTION,
   path: '/verify',
 });
@@ -62,8 +62,8 @@ export default function VerifyPage() {
             <span className="mt-2 block text-[var(--gp-blue)]">Verify it here first.</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)]">
-            If a call, email, or message left you unsure, pause and write us. Confirming official{' '}
-            {FULL_NAME} contact is the right next step.
+            If a text or email about a DHHS grant left you unsure, pause and write us. Verifying
+            means confirming the message is from {FULL_NAME} before you reply or take any next step.
           </p>
         </div>
       </section>
