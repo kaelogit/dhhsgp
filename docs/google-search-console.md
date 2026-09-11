@@ -1,6 +1,6 @@
-# Google Search Console — dhhsgrantprogram.com
+# Google Search Console — dhhsgrantprogram.org
 
-Site: **https://www.dhhsgrantprogram.com** (apex `dhhsgrantprogram.com` redirects here on Vercel)
+Site: **https://dhhsgrantprogram.org** (apex; no `.com` domain)
 
 ## 1. Add the property
 
@@ -8,7 +8,7 @@ Site: **https://www.dhhsgrantprogram.com** (apex `dhhsgrantprogram.com` redirect
 2. Click **Add property**.
 3. Choose **URL prefix** and enter:
    ```
-   https://www.dhhsgrantprogram.com
+   https://dhhsgrantprogram.org
    ```
 4. Under **HTML tag**, copy only the **content** value (not the full meta tag). Example:
    ```
@@ -21,7 +21,7 @@ Site: **https://www.dhhsgrantprogram.com** (apex `dhhsgrantprogram.com` redirect
 2. Add or update:
    ```
    GOOGLE_SITE_VERIFICATION=abc123xyz...
-   NEXT_PUBLIC_SITE_URL=https://www.dhhsgrantprogram.com
+   NEXT_PUBLIC_SITE_URL=https://dhhsgrantprogram.org
    ```
 3. **Redeploy** (Deployments → … → Redeploy) so the verification meta tag is in the HTML.
 
@@ -38,9 +38,8 @@ Site: **https://www.dhhsgrantprogram.com** (apex `dhhsgrantprogram.com` redirect
 1. Search Console → **Sitemaps**.
 2. Submit:
    ```
-   https://www.dhhsgrantprogram.com/sitemap.xml
+   https://dhhsgrantprogram.org/sitemap.xml
    ```
-   (`https://dhhsgrantprogram.com/sitemap.xml` also works — it redirects to www.)
 
 ## 5. Request indexing (priority URLs)
 
@@ -48,21 +47,21 @@ Use **URL inspection** → paste URL → **Request indexing** for:
 
 | URL |
 |-----|
-| https://www.dhhsgrantprogram.com/ |
-| https://www.dhhsgrantprogram.com/apply |
-| https://www.dhhsgrantprogram.com/programs |
-| https://www.dhhsgrantprogram.com/faq |
-| https://www.dhhsgrantprogram.com/verify |
-| https://www.dhhsgrantprogram.com/awards |
-| https://www.dhhsgrantprogram.com/how-it-works |
-| https://www.dhhsgrantprogram.com/eligibility |
+| https://dhhsgrantprogram.org/ |
+| https://dhhsgrantprogram.org/apply |
+| https://dhhsgrantprogram.org/programs |
+| https://dhhsgrantprogram.org/faq |
+| https://dhhsgrantprogram.org/verify |
+| https://dhhsgrantprogram.org/awards |
+| https://dhhsgrantprogram.org/how-it-works |
+| https://dhhsgrantprogram.org/eligibility |
 
 Program pages (`/programs/medical`, `/programs/housing`, etc.) are already in the sitemap — Google will pick them up after the sitemap is processed.
 
 ## 6. What is already on the site
 
 - `robots.txt` — allows Googlebot, points to sitemap
-- `sitemap.xml` — all public pages + 8 program slugs
+- `sitemap.xml` — all public pages + program slugs
 - Canonical URLs, Open Graph, Twitter cards
 - JSON-LD: Organization, WebSite, breadcrumbs on inner pages
 - `GOOGLE_SITE_VERIFICATION` env → verification meta tag in layout
@@ -75,4 +74,4 @@ Program pages (`/programs/medical`, `/programs/housing`, etc.) are already in th
 
 ## Optional: Domain property
 
-For coverage across `http`, `https`, `www`, and apex in one property, add a **Domain** property for `dhhsgrantprogram.com` and verify via DNS TXT in your domain registrar (same place you pointed DNS to Vercel).
+For coverage across `http`, `https`, `www`, and apex in one property, add a **Domain** property for `dhhsgrantprogram.org` and verify via DNS TXT in your domain registrar (same place you pointed DNS to Vercel).

@@ -7,6 +7,8 @@ import { breadcrumbJsonLd, webPageJsonLd } from '@/lib/jsonld';
 import {
   APPLY_FROM_EMAIL,
   APPLY_FROM_NAME,
+  COORDINATOR_EMAIL,
+  COORDINATOR_NAME,
   FULL_NAME,
   SHORT_NAME,
   SITE_DOMAIN,
@@ -15,7 +17,7 @@ import {
 } from '@/lib/site';
 
 const VERIFY_DESCRIPTION =
-  'Pause here if someone contacted you about a DHHS grant. Verifying means confirming the text or email is from DHHS before you reply, share personal information, or take any next step.';
+  'Pause here if someone contacted you about a DHHS grant. Official support: support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. Assigned coordinator follow-up: sarahmitchell@dhhsgrantprogram.org.';
 
 const verifyFaqs = [
   {
@@ -24,7 +26,7 @@ const verifyFaqs = [
   },
   {
     question: 'What are the official DHHS email addresses?',
-    answer: `Official support is ${SUPPORT_EMAIL}. Application receipts come from ${APPLY_FROM_NAME} at ${APPLY_FROM_EMAIL} only. Messages from other addresses are not official.`,
+    answer: `Official support and verification: ${SUPPORT_EMAIL}. Application receipts: ${APPLY_FROM_NAME} at ${APPLY_FROM_EMAIL}. After a coordinator is assigned to your file, follow-up comes from ${COORDINATOR_NAME} at ${COORDINATOR_EMAIL}.`,
   },
   {
     question: 'Does DHHS ask for passwords or payment to release a grant?',
@@ -33,7 +35,7 @@ const verifyFaqs = [
   },
   {
     question: 'What if the message used a name or title that sounded official?',
-    answer: `Names and titles alone do not prove a message is real. Confirm the sender address against this page  -  ${SUPPORT_EMAIL} for support and verification, ${APPLY_FROM_EMAIL} for application receipts only. When in doubt, email support before you act.`,
+    answer: `Names and titles alone do not prove a message is real. Confirm the sender address against this page — ${SUPPORT_EMAIL} for support and verification, ${APPLY_FROM_EMAIL} for application receipts, and ${COORDINATOR_EMAIL} for assigned-coordinator follow-up. When in doubt, email ${SUPPORT_EMAIL} before you act.`,
   },
 ];
 
@@ -79,7 +81,8 @@ export default function VerifyPage() {
               {SUPPORT_EMAIL}
             </a>
             <p className="mt-3 text-sm text-[var(--gp-muted)]">
-              Application receipts come from {APPLY_FROM_NAME} ({APPLY_FROM_EMAIL}). Website:{' '}
+              Application receipts: {APPLY_FROM_NAME} ({APPLY_FROM_EMAIL}). Assigned coordinator
+              follow-up: {COORDINATOR_NAME} ({COORDINATOR_EMAIL}). Website:{' '}
               <a href={SITE_URL} className="font-medium text-[var(--gp-navy)]">
                 {SITE_DOMAIN}
               </a>
@@ -100,8 +103,8 @@ export default function VerifyPage() {
               },
               {
                 icon: Mail,
-                title: 'Official email',
-                body: `Legitimate ${SHORT_NAME} support and verification messages come from ${SUPPORT_EMAIL}. Application receipts come from ${APPLY_FROM_EMAIL} (${APPLY_FROM_NAME}) only.`,
+                title: 'Official email addresses',
+                body: `Support and verification: ${SUPPORT_EMAIL}. Application receipts: ${APPLY_FROM_EMAIL} (${APPLY_FROM_NAME}). Assigned coordinator follow-up: ${COORDINATOR_EMAIL} (${COORDINATOR_NAME}).`,
               },
               {
                 icon: ShieldCheck,
@@ -119,34 +122,18 @@ export default function VerifyPage() {
                   <Icon className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="text-lg">{title}</h3>
+                  <h3 className="font-semibold text-[var(--gp-ink)]">{title}</h3>
                   <p className="mt-1 text-sm leading-relaxed text-[var(--gp-muted)]">{body}</p>
                 </div>
               </div>
             ))}
           </div>
-          <div>
-            <h2 className="text-2xl">Questions people ask before they reply</h2>
-            <div className="mt-4">
-              {verifyFaqs.map((item) => (
-                <div key={item.question} className="border-t border-[var(--gp-line)] py-5">
-                  <h3 className="text-sm font-semibold text-[var(--gp-navy)]">{item.question}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-[var(--gp-muted)]">{item.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <Link href="/faq" className="btn-outline">
-              FAQ
+          <p className="text-center text-sm text-[var(--gp-muted)]">
+            Ready to apply?{' '}
+            <Link href="/apply" className="font-medium text-[var(--gp-blue)] hover:underline">
+              Start your application
             </Link>
-            <Link href="/security" className="btn-outline">
-              Security
-            </Link>
-            <Link href="/apply" className="btn-primary">
-              Apply on this site
-            </Link>
-          </div>
+          </p>
         </div>
       </section>
     </div>

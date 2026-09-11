@@ -5,7 +5,7 @@ import { APPLY_FROM_EMAIL, APPLY_FROM_NAME, FULL_NAME, SHORT_NAME, SITE_DOMAIN, 
 export const metadata = createMetadata({
   title: 'DHHS Privacy Policy  -  How We Handle Applications',
   description:
-    'How Department of Health and Human Services uses the information you submit on dhhsgrantprogram.com. Official follow-up is by email. We never ask for passwords.',
+    'How Department of Health and Human Services uses the information you submit on dhhsgrantprogram.org. Official follow-up is by email. We never ask for passwords.',
   path: '/privacy',
 });
 

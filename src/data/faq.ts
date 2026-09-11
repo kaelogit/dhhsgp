@@ -1,6 +1,7 @@
 import {
   APPLY_FROM_EMAIL,
   APPLY_FROM_NAME,
+  COORDINATOR_EMAIL,
   ELIGIBILITY_OPEN,
   FULL_NAME,
   HELP_AREAS_SHORT,
@@ -70,11 +71,11 @@ export const faqItems = [
   },
   {
     question: 'How will I be contacted?',
-    answer: `You will get a receipt from ${APPLY_FROM_NAME} (${APPLY_FROM_EMAIL}). Then a DHHS grant coordinator assigned to your file will contact you by email within ${RESPONSE_HOURS} hours. Check inbox and spam, then reply on that thread.`,
+    answer: `You will get a receipt from ${APPLY_FROM_NAME} (${APPLY_FROM_EMAIL}). Then a DHHS grant coordinator assigned to your file will contact you from ${COORDINATOR_EMAIL} within ${RESPONSE_HOURS} hours. Check inbox and spam. Reply on that thread.`,
   },
   {
-    question: 'Someone contacted me about a DHHS grant  -  is it real?',
-    answer: `If you are unsure, verify before you act. Official support is ${SUPPORT_EMAIL}. Application receipts come from ${APPLY_FROM_EMAIL} (${APPLY_FROM_NAME}). This website is ${SITE_DOMAIN}. Visit ${SITE_DOMAIN}/verify and email support with what you were told.`,
+    question: 'Someone contacted me about a DHHS grant — is it real?',
+    answer: `If you are unsure, verify before you act. Official support is ${SUPPORT_EMAIL}. Application receipts come from ${APPLY_FROM_EMAIL} (${APPLY_FROM_NAME}). Assigned coordinator follow-up is ${COORDINATOR_EMAIL}. This website is ${SITE_DOMAIN}. Visit ${SITE_DOMAIN}/verify and email support with what you were told.`,
   },
   {
     question: 'Do I have to pay DHHS back?',

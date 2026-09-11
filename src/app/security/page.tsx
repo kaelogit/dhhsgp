@@ -4,14 +4,15 @@ import { createMetadata } from '@/lib/metadata';
 import {
   APPLY_FROM_EMAIL,
   APPLY_FROM_NAME,
+  COORDINATOR_EMAIL,
   SITE_DOMAIN,
   SUPPORT_EMAIL,
 } from '@/lib/site';
 
 export const metadata = createMetadata({
-  title: 'DHHS Official Emails  -  How to Verify a Message',
+  title: 'DHHS Official Emails — How to Verify a Message',
   description:
-    'Official DHHS support is support@dhhsgrantprogram.com. Application receipts come from apply@dhhsgrantprogram.com on dhhsgrantprogram.com. We never ask for passwords.',
+    'Official DHHS support is support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. Coordinator follow-up: sarahmitchell@dhhsgrantprogram.org. We never ask for passwords.',
   path: '/security',
 });
 
@@ -44,12 +45,12 @@ export default function SecurityPage() {
             {
               icon: ShieldCheck,
               title: 'Official channels',
-              body: `Use ${SITE_DOMAIN}, ${SUPPORT_EMAIL}, and ${APPLY_FROM_EMAIL}. We will never ask for passwords.`,
+              body: `Use ${SITE_DOMAIN}, ${SUPPORT_EMAIL}, ${APPLY_FROM_EMAIL}, and ${COORDINATOR_EMAIL}. We will never ask for passwords.`,
             },
             {
               icon: Mail,
               title: 'Email response',
-              body: `${APPLY_FROM_NAME} sends receipts from ${APPLY_FROM_EMAIL}. Support and verification: ${SUPPORT_EMAIL}. Check inbox and spam.`,
+              body: `${APPLY_FROM_NAME} sends receipts from ${APPLY_FROM_EMAIL}. Support and verification: ${SUPPORT_EMAIL}. Assigned coordinator follow-up: ${COORDINATOR_EMAIL}. Check inbox and spam.`,
             },
           ].map(({ icon: Icon, title, body }) => (
             <div key={title} className="flex gap-4">

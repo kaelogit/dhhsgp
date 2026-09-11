@@ -2,15 +2,17 @@ import { createMetadata } from '@/lib/metadata';
 import {
   APPLY_FROM_EMAIL,
   APPLY_FROM_NAME,
+  COORDINATOR_EMAIL,
+  COORDINATOR_NAME,
   RESPONSE_HOURS,
   SUPPORT_EMAIL,
 } from '@/lib/site';
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'Contact DHHS  -  Official Email for Applicants',
+  title: 'Contact DHHS — Official Email for Applicants',
   description:
-    'Official support: support@dhhsgrantprogram.com. Application receipts: apply@dhhsgrantprogram.com. After you apply, a coordinator contacts you by email within 24 hours.',
+    'Official support: support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. After you apply, your coordinator contacts you from sarahmitchell@dhhsgrantprogram.org.',
   path: '/contact',
 });
 
@@ -49,18 +51,25 @@ export default function ContactPage() {
               After you apply
             </p>
             <p className="mt-2 text-sm text-[var(--gp-muted)]">
-              A coordinator is assigned to your file after you submit an application.
+              A coordinator is assigned to your file after you submit. Official coordinator follow-up
+              for assigned files is {COORDINATOR_NAME} ({COORDINATOR_EMAIL}).
             </p>
+            <a
+              href={`mailto:${COORDINATOR_EMAIL}`}
+              className="mt-3 inline-block text-lg font-semibold text-[var(--gp-blue)]"
+            >
+              {COORDINATOR_EMAIL}
+            </a>
             <p className="mt-4 text-sm leading-relaxed text-[var(--gp-muted)]">
               First reply on new applications is within {RESPONSE_HOURS} hours. Check inbox and spam.
-              Reply on the same thread so your file stays together.
+              Reply on the same coordinator thread so your file stays together.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="border-t border-[var(--gp-line)] pt-5">
               <h2 className="text-lg">New grant request</h2>
               <p className="mt-2 text-sm leading-relaxed text-[var(--gp-muted)]">
-                Use the application form. That is how DHHS opens a file  -  not a social message or a
+                Use the application form. That is how DHHS opens a file — not a social message or a
                 lookalike website.
               </p>
               <Link href="/apply" className="mt-4 inline-block text-sm font-semibold text-[var(--gp-blue)]">
