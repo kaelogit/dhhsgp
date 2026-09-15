@@ -86,11 +86,11 @@ export function absoluteSiteUrl(path = ''): string {
 }
 
 export const ORG_BLURB =
-  'The Department of Health and Human Services (DHHS) Grant Program issues billions of dollars in awards to individuals and groups each year. Selected awards are one-time grants with no repayment.';
+  'The Department of Health and Human Services (DHHS) Grant Program issues billions of dollars in one-time awards to individuals and groups each year — for medical care, housing, business, education, and more.';
 
 /** Hero — what the program is and who it serves */
 export const HERO_INTRO =
-  'Billions in DHHS grants are awarded to people, every day. The DHHS Grant Program issues one-time awards to individuals — for medical care, housing, business ventures, education, educators, retirees, seniors, and other personal or professional goals. Selected grants require no repayment. Apply here on the official site.';
+  'Billions in DHHS grants are awarded to people, every day. The DHHS Grant Program issues one-time awards to individuals — for medical care, housing, business ventures, education, educators, retirees, seniors, and other personal or professional goals. Apply here on the official site.';
 
 /** Shown on eligibility sections — not the hero */
 export const ELIGIBILITY_OPEN =

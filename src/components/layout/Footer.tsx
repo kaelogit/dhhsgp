@@ -11,8 +11,8 @@ export function Footer() {
         <div className="md:col-span-2">
           <Logo variant="short" light />
           <p className="mt-5 max-w-md text-sm leading-relaxed text-white/70">
-            {FULL_NAME} ({SHORT_NAME}) issues billions of dollars in DHHS grant money each year.
-            Awards are grants, not loans  -  and they are made to individuals every day.
+            {FULL_NAME} ({SHORT_NAME}) issues billions of dollars in one-time DHHS grant awards each
+            year to individuals across medical care, housing, business, school, and more.
           </p>
         </div>
         <div>

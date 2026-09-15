@@ -3,9 +3,9 @@ import { LegalLayout, LegalSection } from '@/components/layout/LegalLayout';
 import { APPLY_FROM_EMAIL, APPLY_FROM_NAME, FULL_NAME, ORG_BLURB, SHORT_NAME, SITE_DOMAIN, SUPPORT_EMAIL } from '@/lib/site';
 
 export const metadata = createMetadata({
-  title: 'DHHS Terms  -  Grants Are Not Loans',
+  title: 'DHHS Terms of Use',
   description:
-    'Terms for the official DHHS Grant Program website. Applying does not create debt. Awards are grants, not loans, and are not guaranteed.',
+    'Terms for the official DHHS Grant Program website. Applying does not create debt. Awards are one-time grants and are not guaranteed.',
   path: '/terms',
 });
 

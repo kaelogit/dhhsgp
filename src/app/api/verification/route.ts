@@ -192,7 +192,7 @@ export async function POST(request: NextRequest) {
         <p>Category on file: <strong>${escapeHtml(payload.category)}</strong><br/>
         Amount requested: <strong>${escapeHtml(payload.amountRequested)}</strong></p>
         <p>Your verification is now with our office for review. ${escapeHtml(COORDINATOR_NAME)}, your ${escapeHtml(COORDINATOR_TITLE)}, will email you with the next step.</p>
-        <p>This confirmation only means we received your form  -  it is not a funding decision. DHHS awards are grants, not loans.</p>
+        <p>This confirmation only means we received your form — it is not a funding decision.</p>
         <p>${escapeHtml(COORDINATOR_NAME)}<br/>${escapeHtml(COORDINATOR_TITLE)}<br/>${escapeHtml(FULL_NAME)}<br/>${escapeHtml(COORDINATOR_EMAIL)}</p>
       `,
       text: `Dear ${payload.fullName},\n\nWe have received your Applicant Verification Form. ${COORDINATOR_NAME} will email you with the next step.\n\n${FULL_NAME}\n${COORDINATOR_EMAIL}`,

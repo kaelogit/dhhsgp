@@ -38,7 +38,7 @@ export function organizationJsonLd() {
     image: LOGO_URL,
     email: SUPPORT_EMAIL,
     description:
-      'Department of Health and Human Services issuing DHHS grants to individuals. Awards are grants, not loans.',
+      'Department of Health and Human Services issuing one-time DHHS grant awards to individuals through the official DHHS Grant Program.',
     contactPoint: [
       {
         '@type': 'ContactPoint',

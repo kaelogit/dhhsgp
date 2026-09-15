@@ -16,7 +16,7 @@ export const recipientStories: RecipientStory[] = [
     quote: 'I stopped choosing between the pharmacy and the grocery list.',
     story: [
       'I taught myself to live small after my husband died. The pension covered the house, most months, until the specialist visits stacked up. I was stretching prescriptions and skipping the extras I used to enjoy without thinking. I am not dramatic. I am a widow who kept the lights on and hoped the next envelope was not another bill.',
-      'I applied to DHHS because a neighbor said grants were not loans. I almost did not believe that. I had been offered “help” before that turned into interest. Sarah emailed within a day and asked clear questions. I answered them from my kitchen table with the statements in a stack beside the salt shaker.',
+      'I applied to DHHS because a neighbor said the awards were one-time grants. I almost did not believe that. I had been offered “help” before that turned into interest. Sarah emailed within a day and asked clear questions. I answered them from my kitchen table with the statements in a stack beside the salt shaker.',
       'The $475,000 grant closed the medical bills that had been sitting on the counter. I sleep through the night again. I still clip coupons. I just do not cry over envelopes anymore. If you are a senior reading this and you are tired, apply. Asking did not cost me my dignity. It gave some of it back.',
     ],
   },
@@ -124,7 +124,7 @@ export const recipientStories: RecipientStory[] = [
     quote: 'I was tired of selling someone else’s product under someone else’s name.',
     story: [
       'I spent nine years on the road selling for a national brand. I knew the customers. I knew the pitch. What I did not have was the capital to open my own shop with my own inventory.',
-      'Salespeople starting their own business is exactly the kind of file DHHS said they review. I listed equipment, a first lease deposit, and three months of stock. I said plainly: this is not a loan I can service. I needed a grant.',
+      'Salespeople starting their own business is exactly the kind of file DHHS said they review. I listed equipment, a first lease deposit, and three months of stock. I said plainly: I needed a grant, not credit I could not service.',
       'The $425,000 award let me open Cole Home Goods. I still sell. I just keep the margin. I hired two people from my old territory. That is the part I am proudest of.',
     ],
   },
@@ -221,7 +221,7 @@ export const recipientStories: RecipientStory[] = [
     story: [
       'Cancer is a medical story and a money story at the same time. Insurance paid a share. The rest sat in a folder I was afraid to open. I was well enough to work part-time and not well enough to ignore the hospital.',
       'Paying medical bills is one of the reasons DHHS exists. I applied on a Tuesday night when I could not sleep. Sarah emailed within a day. I sent statements. I did not perform gratitude in advance. I was too tired.',
-      'The $880,000 grant closed the oncology balance. I still have scans. I do not have a collector. If you are looking at medical bills and wondering whether a grant is real, DHHS grants are not loans. That sentence is why I applied.',
+      'The $880,000 grant closed the oncology balance. I still have scans. I do not have a collector. If you are looking at medical bills and wondering whether help like this is real, that is why I applied.',
     ],
   },
   {

@@ -20,10 +20,11 @@ export function WhyGrantSection() {
     <section className="bg-white py-20">
       <div className="container-page">
         <p className="section-label">Important</p>
-        <h2 className="mt-3 max-w-2xl text-3xl md:text-4xl">DHHS programs are not loans</h2>
+        <h2 className="mt-3 max-w-2xl text-3xl md:text-4xl">What a DHHS award means</h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)]">
-          The DHHS Grant Program issues one-time awards you do not repay. Each year billions of
-          dollars go to individuals across medical care, housing, business, school, and more.
+          The DHHS Grant Program issues one-time awards. Each year billions of dollars go to
+          individuals across medical care, housing, business, school, and more. If you are selected,
+          you do not pay it back.
         </p>
         <div className="mt-10 grid gap-px bg-[var(--gp-line)] md:grid-cols-2">
           <div className="bg-[var(--gp-paper)] p-8 md:p-10">

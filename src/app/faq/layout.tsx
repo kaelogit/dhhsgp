@@ -4,9 +4,9 @@ import { buildFaqPageJsonLd, faqItems } from '@/data/faq';
 import { breadcrumbJsonLd } from '@/lib/jsonld';
 
 export const metadata = createMetadata({
-  title: 'DHHS Grant FAQ  -  Not a Loan, Who Can Apply',
+  title: 'DHHS Grant FAQ — Who Can Apply and How Contact Works',
   description:
-    'No  -  a DHHS grant is not a loan. Adults 18+ may apply for medical bills, a home, school, business, teachers, and seniors. See how you are contacted and how to verify a message.',
+    'Adults 18+ may apply for medical bills, a home, school, business, teachers, and seniors. See how you are contacted and how to verify a message.',
   path: '/faq',
 });
 

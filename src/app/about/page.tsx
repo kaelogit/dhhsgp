@@ -14,7 +14,7 @@ import Link from 'next/link';
 export const metadata = createMetadata({
   title: 'About DHHS  -  Department of Health and Human Services',
   description:
-    'Department of Health and Human Services (DHHS) Grant Program. Official application site: dhhsgrantprogram.org. Selected awards are one-time grants with no repayment.',
+    'Department of Health and Human Services (DHHS) Grant Program. Official application site: dhhsgrantprogram.org. One-time awards for medical care, housing, business, school, and more.',
   path: '/about',
 });
 
@@ -30,13 +30,13 @@ export default function AboutPage() {
         <div className="container-page max-w-3xl space-y-6 text-sm leading-relaxed text-[var(--gp-muted)]">
           <p>{ORG_BLURB}</p>
           <p>
-            People apply to DHHS for one-time grant funding they never have to repay  -  whether they
-            are closing a specific gap or funding something new. {ELIGIBILITY_OPEN} {HELP_AREAS_SHORT}
+            People apply to DHHS for one-time grant funding — whether they are closing a specific
+            gap or funding something new. {ELIGIBILITY_OPEN} {HELP_AREAS_SHORT}
           </p>
 
           <h2 className="pt-4 text-2xl text-[var(--gp-blue)]">Executive summary</h2>
           <p>
-            DHHS exists to move grant money  -  not credit  -  to individuals and groups with a clear
+            DHHS exists to move one-time grant awards to individuals and groups with a clear
             purpose. We issue billions of dollars in DHHS grant money each year across many kinds of
             files. Awards are made to individuals each and every day. That volume does not mean every
             application is selected. It does mean that asking is allowed, expected, and reviewed.
@@ -50,11 +50,11 @@ export default function AboutPage() {
             Keep official applications on this website.
           </p>
 
-          <h2 className="text-2xl text-[var(--gp-blue)]">Not a loan</h2>
+          <h2 className="text-2xl text-[var(--gp-blue)]">One-time awards</h2>
           <p>
-            DHHS grant programs are not loans. If you are selected, you do not repay the award.
-            Applying does not create debt. If someone offers you a “DHHS loan,” it is not this
-            program. Confirm contact on our Verify page or write {SUPPORT_EMAIL}.
+            A DHHS award is a one-time grant. If you are selected, you do not repay it, and applying
+            does not create debt. If someone offers you a “DHHS loan,” it is not this program.
+            Confirm contact on our Verify page or write {SUPPORT_EMAIL}.
           </p>
 
           <h2 className="text-2xl text-[var(--gp-blue)]">Who we serve</h2>

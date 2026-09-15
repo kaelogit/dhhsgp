@@ -31,7 +31,7 @@ const verifyFaqs = [
   {
     question: 'Does DHHS ask for passwords or payment to release a grant?',
     answer:
-      'No. DHHS grants are not loans. We will never ask for your email or banking passwords. If anyone claiming to represent us demands passwords or repayment as if the award were a loan, ignore them and write support.',
+      'No. We will never ask for your email or banking passwords. If anyone claiming to represent us demands passwords, ignore them and write support.',
   },
   {
     question: 'What if the message used a name or title that sounded official?',

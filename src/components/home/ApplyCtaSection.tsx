@@ -25,9 +25,7 @@ export function ApplyCtaSection() {
           Apply now
           <ArrowRight className="h-4 w-4" />
         </Link>
-        <p className="mt-6 text-xs text-white/50">
-          Awards range from $100,000 to $1,000,000 · No repayment required
-        </p>
+        <p className="mt-6 text-xs text-white/50">Awards range from $100,000 to $1,000,000</p>
       </div>
     </section>
   );

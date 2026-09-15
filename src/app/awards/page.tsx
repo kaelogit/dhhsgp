@@ -6,7 +6,7 @@ import { createMetadata } from '@/lib/metadata';
 export const metadata = createMetadata({
   title: 'Recent DHHS Grants Awarded to Individuals',
   description:
-    'See recent DHHS grants for medical bills, housing, business, school, teachers, and seniors. These are grants, not loans. Awards go to individuals every day.',
+    'See recent DHHS grants for medical bills, housing, business, school, teachers, and seniors. Awards go to individuals every day.',
   path: '/awards',
 });
 
@@ -16,7 +16,7 @@ export default function AwardsPage() {
       <PageHero
         label="Awards"
         title="Recent DHHS grants"
-        description="Grants are awarded to individuals each and every day. Amounts below are grants  -  not loans. Names are shortened to protect privacy."
+        description="Grants are awarded to individuals each and every day. Names are shortened to protect privacy."
       />
       <section className="py-12">
         <div className="container-page max-w-4xl">

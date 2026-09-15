@@ -88,7 +88,7 @@ export default function ApplyPage() {
           <h1 className="mt-3 text-4xl text-white">Your DHHS grant application</h1>
           <p className="mt-4 text-sm leading-relaxed text-white/80 md:text-base">
             Department of Health and Human Services issues billions of dollars in DHHS grant money each year.
-            Awards go to individuals every day. DHHS programs are not loans. {HELP_AREAS_SHORT}
+            Awards go to individuals every day. {HELP_AREAS_SHORT}
           </p>
           <p className="mt-3 text-sm text-white/70">{applicantResponseBadge()}</p>
         </div>
@@ -103,8 +103,7 @@ export default function ApplyPage() {
                 <h2 className="mt-4 text-2xl">Thank you. Your file is with us.</h2>
                 <p className="mt-4 text-sm leading-relaxed text-[var(--gp-muted)]">
                   Your application has been received. A DHHS grant coordinator will be assigned to
-                  your file and will contact you by email. This is a grant request, not a loan
-                  application, and it will be read personally.
+                  your file and will contact you by email. Your request will be read personally.
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-[var(--gp-muted)]">
                   You will get a receipt from {APPLY_FROM_NAME} ({APPLY_FROM_EMAIL}). Then expect
@@ -257,7 +256,8 @@ export default function ApplyPage() {
                     required
                     className="mt-1"
                   />
-                  I understand DHHS grants are not loans, and applying does not guarantee an award.
+                  I understand this is a one-time DHHS grant award, and applying does not guarantee
+                  an award.
                 </label>
                 {status === 'error' ? <p className="text-sm text-red-700">{errorMsg}</p> : null}
                 <button
@@ -324,7 +324,7 @@ export default function ApplyPage() {
               </p>
               <p className="flex gap-2">
                 <Shield className="mt-0.5 h-4 w-4 shrink-0 text-[var(--gp-blue)]" />
-                Grants  -  not loans
+                Grants — one-time awards
               </p>
               <Link href="/verify" className="block font-semibold text-[var(--gp-blue)]">
                 Verify official contact
