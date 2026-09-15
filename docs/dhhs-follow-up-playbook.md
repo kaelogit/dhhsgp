@@ -136,7 +136,7 @@ Category: [category]
 
 Before we continue, I want you to understand who we are and how this works.
 
-Department of Health and Human Services (DHHS) is a grant foundation. We issue DHHS grant money to individuals with a practical need — medical bills, buying a home, starting a business, going to school, teachers, retired teachers, seniors, and other financial assistance. A DHHS award is a grant, not a loan. There is no repayment and no interest.
+Department of Health and Human Services (DHHS) Grant Program issues DHHS grant money to individuals with a practical need — medical bills, buying a home, starting a business, going to school, teachers, retired teachers, seniors, and other financial assistance. A DHHS award is a grant, not a loan. There is no repayment and no interest.
 
 You have been assigned to me, Sarah Mitchell, as your DHHS Grant Coordinator on this file. Please reply to this email within 12 hours with CONFIRM so we can begin the next step of your application process.
 
@@ -2127,20 +2127,20 @@ sarahmitchell@dhhsgrantprogram.org
 
 SUPPORT@ — impersonation / Bobby / Ralph / flyer / “claims agent” text
 
-Use from sarahmitchell@dhhsgrantprogram.org when someone asks whether a text, flyer, or outside agent is real.
+Use from support@dhhsgrantprogram.org when someone asks whether a text, flyer, or outside agent is real.
 
 Subject: Re: The message you received — please discard it
 
 Dear [First Name],
 
-Thank you for writing to sarahmitchell@dhhsgrantprogram.org.
+Thank you for writing to support@dhhsgrantprogram.org.
 
-The text / flyer / “claims agent” message you received is not from this Foundation. Please discard it.
+The text / flyer / “claims agent” message you received is not from the DHHS Grant Program. Please discard it.
 
 We do not text people first to say they won, were selected, or were approved. We do not ask anyone to buy Apple gift cards, send card numbers, use a winner’s code, or contact an agent by personal Gmail or random phone number.
 
-[If Bobby Miller:] Bobby Miller was once connected to this Foundation and was removed for collecting money from claimants improperly. He is not authorized now.
-[If Ralph / flyer:] We do not know Agent Ralph Montigny or similar names as Foundation representatives. “Department of Health and Human Services Hub” style flyers with winner codes are a common scam pattern.
+[If Bobby Miller:] Bobby Miller was once connected to this program and was removed for collecting money from claimants improperly. He is not authorized now.
+[If Ralph / flyer:] We do not know Agent Ralph Montigny or similar names as DHHS representatives. “Department of Health and Human Services Hub” style flyers with winner codes are a common scam pattern.
 
 The proper path is only through dhhsgrantprogram.org:
 https://dhhsgrantprogram.org/apply
@@ -2156,16 +2156,16 @@ Please:
 If you already applied properly, your file will be reviewed and an official coordinator will email you. If Sarah Mitchell is already assigned to your file, continue only on that email thread.
 
 Department of Health and Human Services Support
-sarahmitchell@dhhsgrantprogram.org
+support@dhhsgrantprogram.org
 
 
-SUPPORT@ — verifying Michael and the 1.2% / admin fee on an active file
+SUPPORT@ — verifying Sarah and the 1.2% / admin fee on an active file
 
 Dear [First Name],
 
-Thank you for contacting sarahmitchell@dhhsgrantprogram.org. We reviewed your message.
+Thank you for contacting support@dhhsgrantprogram.org. We reviewed your message.
 
-Your file is legitimate. You applied through dhhsgrantprogram.org and completed the documented steps on your file. Sarah Mitchell is your assigned DHHS Grant Coordinator. Emails from sarahmitchell@dhhsgrantprogram.org are official DHHS communication for your file.
+Your file is legitimate. You applied through dhhsgrantprogram.org and completed the documented steps on your file. Sarah Mitchell is your assigned DHHS Grant Coordinator. Official coordinator follow-up comes from sarahmitchell@dhhsgrantprogram.org. support@dhhsgrantprogram.org is for verification and general support only.
 
 [Impersonator name] is not authorized. Do not send gift cards, codes, or money by text.
 
@@ -2177,10 +2177,10 @@ Administrative fee: [admin fee]
 
 The fee is separate from your grant and is not deducted from it. Support is debt-free — not a loan.
 
-Official contact is email only. Reply to sarahmitchell@dhhsgrantprogram.org with RECEIVED so your coordinator knows this verification reached you.
+Official verification contact is email only. Reply to support@dhhsgrantprogram.org with RECEIVED so we can confirm this verification reached you. Continue your file only on the sarahmitchell@dhhsgrantprogram.org thread.
 
 Department of Health and Human Services Support
-sarahmitchell@dhhsgrantprogram.org
+support@dhhsgrantprogram.org
 
 
 OBJECTION INDEX
@@ -2228,7 +2228,7 @@ Installment / pay half → INSTALLMENT FILE
 Cash or bank account? → DELIVERY OPTIONS
 Second offer / step up later → Second offer
 Bobby / Ralph / flyer / claims agent text → SUPPORT@ impersonation
-Support verifying Michael / is fee real? → SUPPORT@ verifying Michael
+Support verifying Sarah / is fee real? → SUPPORT@ verifying Sarah
 Bank transfer under $1,500 → If they ask for bank transfer but payment is under $1,500
 Partial payments → Partial payments / running total language
 PATH B assigned amount → PATH B — Office assigns amount
