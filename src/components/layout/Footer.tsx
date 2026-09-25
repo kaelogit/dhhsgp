@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Logo } from '@/components/brand/Logo';
 import { FULL_NAME, SHORT_NAME, SUPPORT_EMAIL } from '@/lib/site';
-
 export function Footer() {
   const year = new Date().getFullYear();
   return (
