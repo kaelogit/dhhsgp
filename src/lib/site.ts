@@ -1,5 +1,7 @@
-const DEFAULT_SITE_URL = 'https://dhhsgrantprogram.org';
+/** Live primary host is www (apex 308 → www). Keep canonicals on www. */
+const DEFAULT_SITE_URL = 'https://www.dhhsgrantprogram.org';
 const PRODUCTION_HOST = 'dhhsgrantprogram.org';
+const PRODUCTION_WWW_HOST = `www.${PRODUCTION_HOST}`;
 
 function normalizeSiteUrl(raw: string | undefined): string {
   const value = raw?.trim();
@@ -8,8 +10,9 @@ function normalizeSiteUrl(raw: string | undefined): string {
       const parsed = new URL(value.replace(/\/$/, ''));
       const host = parsed.hostname.toLowerCase();
       if (host.endsWith('.vercel.app')) return DEFAULT_SITE_URL;
-      if (host === `www.${PRODUCTION_HOST}`) {
-        parsed.hostname = PRODUCTION_HOST;
+      if (host === PRODUCTION_HOST || host === PRODUCTION_WWW_HOST) {
+        parsed.hostname = PRODUCTION_WWW_HOST;
+        parsed.protocol = 'https:';
       }
       return parsed.toString().replace(/\/$/, '');
     } catch {
@@ -42,7 +45,7 @@ export const SITE_DOMAIN = (() => {
   try {
     return new URL(SITE_URL).hostname;
   } catch {
-    return 'dhhsgrantprogram.org';
+    return 'www.dhhsgrantprogram.org';
   }
 })();
 

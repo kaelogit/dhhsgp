@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Host: www.dhhsgrantprogram.org
+Sitemap: https://www.dhhsgrantprogram.org/sitemap.xml
