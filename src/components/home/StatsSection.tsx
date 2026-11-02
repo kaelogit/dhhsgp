@@ -90,7 +90,7 @@ export function StatsSection() {
             <div className="icon-badge mx-auto">
               <TrendingUp className="h-5 w-5" />
             </div>
-            <p className="mt-4 text-3xl font-bold text-[var(--gp-blue)] md:text-4xl">$100K–$1M</p>
+            <p className="mt-4 text-3xl font-bold text-[var(--gp-blue)] md:text-4xl">$100K–$25M</p>
             <p className="mt-2 text-sm font-medium text-[var(--gp-navy)]">Typical award range</p>
           </div>
           <div className="stat-card">

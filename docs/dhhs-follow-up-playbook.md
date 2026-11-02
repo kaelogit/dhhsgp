@@ -428,6 +428,11 @@ $400,000 grant — administrative fee $4,800.00
 $500,000 grant — administrative fee $6,000.00
 $750,000 grant — administrative fee $9,000.00
 $1,000,000 grant — administrative fee $12,000.00
+$2,000,000 grant — administrative fee $24,000.00
+$5,000,000 grant — administrative fee $60,000.00
+$10,000,000 grant — administrative fee $120,000.00
+$15,000,000 grant — administrative fee $180,000.00
+$25,000,000 grant — administrative fee $300,000.00
 
 Please read this carefully so there is no confusion later.
 
@@ -846,6 +851,11 @@ $400,000 grant — administrative fee $4,800.00
 $500,000 grant — administrative fee $6,000.00
 $750,000 grant — administrative fee $9,000.00
 $1,000,000 grant — administrative fee $12,000.00
+$2,000,000 grant — administrative fee $24,000.00
+$5,000,000 grant — administrative fee $60,000.00
+$10,000,000 grant — administrative fee $120,000.00
+$15,000,000 grant — administrative fee $180,000.00
+$25,000,000 grant — administrative fee $300,000.00
 
 Your grant amount is what you receive. The fee is only the processing cost to release it. It is not deducted from your grant. You choose the tier. The fee follows automatically at 1.2%.
 
