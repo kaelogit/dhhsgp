@@ -9,5 +9,7 @@ build
 next-env.d.ts
 tsconfig.tsbuildinfo
 
-# Operator follow-up playbook (local only)
+# Operator playbooks (local only — never push)
+docs/*playbook*.md
+docs/support-verify-playbook.md
 docs/dhhs-follow-up-playbook.md
