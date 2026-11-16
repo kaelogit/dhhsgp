@@ -17,12 +17,16 @@ import {
 } from '@/lib/site';
 
 const VERIFY_DESCRIPTION =
-  'Pause here if someone contacted you about a DHHS grant. Official support: support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. Assigned coordinator follow-up: sarahmitchell@hhsgrantprogram.com.';
+  'Did someone text you, email you, or message you on Facebook, Instagram, or another social app about a DHHS grant you supposedly won and need to claim? That may not be us. Tell support what happened so we can verify.';
 
 const verifyFaqs = [
   {
-    question: 'How do I verify a DHHS grant text or email?',
-    answer: `Pause and check this page. Email ${SUPPORT_EMAIL} with who contacted you and what they asked. We will confirm whether it matches an official file. The official website is ${SITE_DOMAIN}.`,
+    question: 'Someone said I won a DHHS grant and need to claim it. Is that real?',
+    answer: `Not if they reached out to you first by text, Facebook, Instagram, TikTok, WhatsApp, or a random email. We do not cold-contact people to say they won a grant and must claim it. Email ${SUPPORT_EMAIL} with how you were contacted and what they asked. We will confirm whether it is us.`,
+  },
+  {
+    question: 'How do I verify a DHHS grant text, social message, or email?',
+    answer: `Pause and check this page. Email ${SUPPORT_EMAIL} with who contacted you, where (text, Facebook, Instagram, email, or another app), and what they asked. We will confirm whether it matches an official file. The official website is ${SITE_DOMAIN}.`,
   },
   {
     question: 'What are the official DHHS email addresses?',
@@ -64,8 +68,10 @@ export default function VerifyPage() {
             <span className="mt-2 block text-[var(--gp-blue)]">Verify it here first.</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)]">
-            If a text or email about a DHHS grant left you unsure, pause and write us. Verifying
-            means confirming the message is from {FULL_NAME} before you reply or take any next step.
+            Did someone reach out randomly — by text, email, Facebook, Instagram, or another social
+            app — saying you won a grant and need to claim it? That may not be us. Pause, tell us
+            what happened, and verify you are talking to the right person before you reply or send
+            anything.
           </p>
         </div>
       </section>
@@ -97,6 +103,11 @@ export default function VerifyPage() {
           <div className="space-y-6">
             {[
               {
+                icon: AlertTriangle,
+                title: 'Random “you won — claim it” messages',
+                body: `We do not cold-contact people by text or on Facebook, Instagram, TikTok, WhatsApp, or other social apps to say they won a DHHS grant and must claim it. If that is how you heard from someone, treat it as unverified and write ${SUPPORT_EMAIL} before you act.`,
+              },
+              {
                 icon: Globe,
                 title: 'Official website only',
                 body: `The official application site is ${SITE_DOMAIN}. If a link goes somewhere else, stop and email ${SUPPORT_EMAIL}.`,
@@ -108,8 +119,8 @@ export default function VerifyPage() {
               },
               {
                 icon: ShieldCheck,
-                title: 'Ask us before you act',
-                body: `Tell us who contacted you and what they asked. Email ${SUPPORT_EMAIL} and we will confirm whether it matches an official file.`,
+                title: 'Tell us what happened',
+                body: `Include how you were contacted (text, Facebook, Instagram, email, or another app), who they claimed to be, and what they asked you to do. Email ${SUPPORT_EMAIL} and we will confirm whether you are talking to the right person.`,
               },
               {
                 icon: AlertTriangle,
@@ -128,12 +139,14 @@ export default function VerifyPage() {
               </div>
             ))}
           </div>
-          <p className="text-center text-sm text-[var(--gp-muted)]">
-            Ready to apply?{' '}
-            <Link href="/apply" className="font-medium text-[var(--gp-blue)] hover:underline">
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href="/scam-report" className="btn-primary">
+              Begin scam recovery
+            </Link>
+            <Link href="/apply" className="btn-outline">
               Start your application
             </Link>
-          </p>
+          </div>
         </div>
       </section>
     </div>
