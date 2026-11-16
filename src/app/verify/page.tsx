@@ -17,7 +17,7 @@ import {
 } from '@/lib/site';
 
 const VERIFY_DESCRIPTION =
-  'Pause here if someone contacted you about a DHHS grant. Official support: support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. Assigned coordinator follow-up: sarahmitchell@dhhsgrantprogram.org.';
+  'Pause here if someone contacted you about a DHHS grant. Official support: support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. Assigned coordinator follow-up: sarahmitchell@hhsgrantprogram.com.';
 
 const verifyFaqs = [
   {

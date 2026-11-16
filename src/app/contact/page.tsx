@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata = createMetadata({
   title: 'Contact DHHS — Official Email for Applicants',
   description:
-    'Official support: support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. After you apply, your coordinator contacts you from sarahmitchell@dhhsgrantprogram.org.',
+    'Official support: support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. After you apply, your coordinator contacts you from sarahmitchell@hhsgrantprogram.com.',
   path: '/contact',
 });
 

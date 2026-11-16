@@ -1,77 +1,117 @@
-# Google Search Console — dhhsgrantprogram.org
+# Google Search Console — www.hhsgrantprogram.com
 
-Site: **https://dhhsgrantprogram.org** (apex; no `.com` domain)
+**Primary host:** `https://www.hhsgrantprogram.com`  
+Apex (`https://hhsgrantprogram.com`) **308 redirects → www**. Do not treat apex as the indexed homepage.
 
-## 1. Add the property
+Site code, `sitemap.xml`, `robots.txt`, and canonical tags use **www**.
+
+Former domain: `dhhsgrantprogram.org` (keep redirects from .org → .com after cutover).
+
+---
+
+## 1. Property to use
+
+**Best option — Domain property (covers everything once):**
 
 1. Open [Google Search Console](https://search.google.com/search-console).
-2. Click **Add property**.
-3. Choose **URL prefix** and enter:
+2. **Add property** → **Domain** → enter:
    ```
-   https://dhhsgrantprogram.org
+   hhsgrantprogram.com
    ```
-4. Under **HTML tag**, copy only the **content** value (not the full meta tag). Example:
-   ```
-   abc123xyz...
-   ```
+3. Verify with the DNS TXT record at your registrar (same place DNS points to Vercel).
 
-## 2. Verify in Vercel
+**Or URL-prefix (www only):**
 
-1. Vercel → **dhhsgrantprogram** project → **Settings** → **Environment Variables**.
-2. Add or update:
+1. **Add property** → **URL prefix** → enter:
+   ```
+   https://www.hhsgrantprogram.com
+   ```
+2. Under **HTML tag**, copy only the **content** value.
+3. In Vercel → project → **Settings** → **Environment Variables**:
    ```
    GOOGLE_SITE_VERIFICATION=abc123xyz...
-   NEXT_PUBLIC_SITE_URL=https://dhhsgrantprogram.org
+   NEXT_PUBLIC_SITE_URL=https://www.hhsgrantprogram.com
    ```
-3. **Redeploy** (Deployments → … → Redeploy) so the verification meta tag is in the HTML.
+4. Redeploy so the meta tag is in the HTML, then click **Verify** in Search Console.
 
-## 3. Confirm verification
+Do **not** use a URL-prefix property on bare `https://hhsgrantprogram.com` for indexing work — those URLs redirect and show “Page with redirect.”
 
-1. In Search Console, click **Verify**.
-2. Optional check: view page source on the homepage and look for:
-   ```html
-   <meta name="google-site-verification" content="abc123xyz..." />
-   ```
+---
 
-## 4. Submit the sitemap
+## 2. Submit the sitemap
 
-1. Search Console → **Sitemaps**.
+1. Search Console → the **www** or **Domain** property → **Sitemaps**.
 2. Submit:
    ```
-   https://dhhsgrantprogram.org/sitemap.xml
+   https://www.hhsgrantprogram.com/sitemap.xml
    ```
 
-## 5. Request indexing (priority URLs)
+---
 
-Use **URL inspection** → paste URL → **Request indexing** for:
+## 3. Request indexing (www URLs only)
+
+**URL inspection** → paste → **Request indexing**:
 
 | URL |
 |-----|
-| https://dhhsgrantprogram.org/ |
-| https://dhhsgrantprogram.org/apply |
-| https://dhhsgrantprogram.org/programs |
-| https://dhhsgrantprogram.org/faq |
-| https://dhhsgrantprogram.org/verify |
-| https://dhhsgrantprogram.org/awards |
-| https://dhhsgrantprogram.org/how-it-works |
-| https://dhhsgrantprogram.org/eligibility |
+| https://www.hhsgrantprogram.com/ |
+| https://www.hhsgrantprogram.com/apply |
+| https://www.hhsgrantprogram.com/programs |
+| https://www.hhsgrantprogram.com/faq |
+| https://www.hhsgrantprogram.com/verify |
+| https://www.hhsgrantprogram.com/awards |
+| https://www.hhsgrantprogram.com/how-it-works |
+| https://www.hhsgrantprogram.com/eligibility |
+| https://www.hhsgrantprogram.com/donate |
+| https://www.hhsgrantprogram.com/about |
+| https://www.hhsgrantprogram.com/impact |
+| https://www.hhsgrantprogram.com/contact |
+| https://www.hhsgrantprogram.com/security |
+| https://www.hhsgrantprogram.com/privacy |
+| https://www.hhsgrantprogram.com/terms |
+| https://www.hhsgrantprogram.com/programs/medical |
+| https://www.hhsgrantprogram.com/programs/housing |
+| https://www.hhsgrantprogram.com/programs/business |
+| https://www.hhsgrantprogram.com/programs/education |
+| https://www.hhsgrantprogram.com/programs/teachers |
+| https://www.hhsgrantprogram.com/programs/retired-teachers |
+| https://www.hhsgrantprogram.com/programs/seniors |
+| https://www.hhsgrantprogram.com/programs/assistance |
 
-Program pages (`/programs/medical`, `/programs/housing`, etc.) are already in the sitemap — Google will pick them up after the sitemap is processed.
+---
 
-## 6. What is already on the site
+## 4. What “Page with redirect” means
 
-- `robots.txt` — allows Googlebot, points to sitemap
-- `sitemap.xml` — all public pages + program slugs
-- Canonical URLs, Open Graph, Twitter cards
-- JSON-LD: Organization, WebSite, breadcrumbs on inner pages
-- `GOOGLE_SITE_VERIFICATION` env → verification meta tag in layout
+If you inspect `https://hhsgrantprogram.com/`, Google may say **Page is not indexed: Page with redirect**. That is expected. Index and request the **www** URL instead.
 
-## 7. Timeline
+---
 
-- Verification: immediate after redeploy
+## 5. Already on the site
+
+- `robots.txt` — `Host: www.hhsgrantprogram.com`, sitemap on www
+- `sitemap.xml` — all locs on www
+- Canonical / Open Graph / JSON-LD use www (`NEXT_PUBLIC_SITE_URL` is normalized to www in code)
+- `GOOGLE_SITE_VERIFICATION` → verification meta in layout
+
+---
+
+## 6. Timeline
+
 - Sitemap processing: usually 1–3 days
-- Full indexing: often 1–2 weeks for a new domain; requesting indexing on key URLs speeds up the main pages
+- Brand search visibility: often days to a couple of weeks even after “URL is on Google”
+- Check presence with: `site:www.hhsgrantprogram.com`
 
-## Optional: Domain property
+---
 
-For coverage across `http`, `https`, `www`, and apex in one property, add a **Domain** property for `dhhsgrantprogram.org` and verify via DNS TXT in your domain registrar (same place you pointed DNS to Vercel).
+## 7. Vercel env check
+
+Confirm production has:
+
+```
+NEXT_PUBLIC_SITE_URL=https://www.hhsgrantprogram.com
+ZOHO_USER=apply@hhsgrantprogram.com
+MAIL_FROM=apply@hhsgrantprogram.com
+TO_EMAIL=sarahmitchell@hhsgrantprogram.com
+```
+
+Redeploy after changing these. The app also forces www in code if apex is set by mistake.

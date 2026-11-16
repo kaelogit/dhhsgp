@@ -67,13 +67,13 @@ export async function POST(req: NextRequest) {
       to: parsed.email,
       replyTo: SUPPORT_EMAIL,
       subject: `Donation inquiry received — ${SHORT_NAME} Grant Program`,
-      text: `Dear ${parsed.name},\n\nThank you for your interest in supporting the ${SHORT_NAME} Grant Program.\n\nWe have received your donation inquiry for ${parsed.amount}. Our office will write you from ${SUPPORT_EMAIL} with the next steps for your donation.\n\nPlease check your inbox and spam folder.\n\nWith thanks,\n${SHORT_NAME} Grant Program\n${SUPPORT_EMAIL}\nwww.dhhsgrantprogram.org`,
+      text: `Dear ${parsed.name},\n\nThank you for your interest in supporting the ${SHORT_NAME} Grant Program.\n\nWe have received your donation inquiry for ${parsed.amount}. Our office will write you from ${SUPPORT_EMAIL} with the next steps for your donation.\n\nPlease check your inbox and spam folder.\n\nWith thanks,\n${SHORT_NAME} Grant Program\n${SUPPORT_EMAIL}\nwww.hhsgrantprogram.com`,
       html: `
         <p>Dear ${escapeHtml(parsed.name)},</p>
         <p>Thank you for your interest in supporting the ${escapeHtml(SHORT_NAME)} Grant Program.</p>
         <p>We have received your donation inquiry for <strong>${escapeHtml(parsed.amount)}</strong>. Our office will write you from <strong>${escapeHtml(SUPPORT_EMAIL)}</strong> with the next steps for your donation.</p>
         <p>Please check your inbox and spam folder.</p>
-        <p>With thanks,<br/>${escapeHtml(SHORT_NAME)} Grant Program<br/>${escapeHtml(SUPPORT_EMAIL)}<br/>www.dhhsgrantprogram.org</p>
+        <p>With thanks,<br/>${escapeHtml(SHORT_NAME)} Grant Program<br/>${escapeHtml(SUPPORT_EMAIL)}<br/>www.hhsgrantprogram.com</p>
       `,
     });
 

@@ -1,18 +1,20 @@
 # DHHS Grant Program — Email Follow-Up Playbook
 
-support@dhhsgrantprogram.org · Verify + general support only
-apply@dhhsgrantprogram.org · DHHS Applications (receipts only)
-sarahmitchell@dhhsgrantprogram.org · Sarah Mitchell, DHHS Grant Coordinator (file follow-up)
-Site: https://dhhsgrantprogram.org
-Verify: https://dhhsgrantprogram.org/verify
+support@hhsgrantprogram.com · Verify + general support only
+apply@hhsgrantprogram.com · DHHS Applications (receipts only)
+sarahmitchell@hhsgrantprogram.com · Sarah Mitchell, DHHS Grant Coordinator (file follow-up)
+Site: https://www.hhsgrantprogram.com
+Verify: https://www.hhsgrantprogram.com/verify
 Email only. No phone. No text track.
+
+Cutover note: Official domain is now www.hhsgrantprogram.com (not .org). Active applicants should be told once go-live is confirmed.
 
 ---
 
 ## Rules
 
-1. Email only. All steps, payment, and objections stay on email from sarahmitchell@dhhsgrantprogram.org.
-2. Application receipts come from DHHS Applications (apply@dhhsgrantprogram.org). Sarah’s follow-up is always sarahmitchell@dhhsgrantprogram.org. Support/verify only: support@dhhsgrantprogram.org.
+1. Email only. All steps, payment, and objections stay on email from sarahmitchell@hhsgrantprogram.com.
+2. Application receipts come from DHHS Applications (apply@hhsgrantprogram.com). Sarah’s follow-up is always sarahmitchell@hhsgrantprogram.com. Support/verify only: support@hhsgrantprogram.com.
 3. After apply: send Step 1 within 24 hours. Ask for CONFIRM within 12 hours.
 4. Send a short Hold reply before the next substantive email when noted.
 5. No DECLINE option — guide forward. Unselected files still get a clear “not selected” reply (see end).
@@ -23,7 +25,7 @@ Email only. No phone. No text track.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 Tone: Clear, warm, official. Grant language (not “prize”). Short holds. Plain next steps.
 
@@ -85,7 +87,7 @@ Operator sheet (fill once per method — never invent live):
 | Zelle | [PAY TO] |
 | Cash App | [PAY TO] |
 | Bank transfer | [BANK DETAILS] (single payment $1,500+ only) |
-| Gift cards | https://dhhsgrantprogram.org/upload-gift-cards |
+| Gift cards | https://www.hhsgrantprogram.com/upload-gift-cards |
 | Western Union Walmart→Walmart | [RECEIVER / CITY / STATE] ($1,000+ fee only) |
 | Cash mailing | [MAILING ADDRESS] ($1,000+ fee only) |
 | Wire | [WIRE DETAILS] ($1,000+ fee only) |
@@ -96,11 +98,11 @@ Document links:
 
 | Doc | URL |
 |-----|-----|
-| Verification | https://dhhsgrantprogram.org/documents/verification-form.html |
-| Affidavit | https://dhhsgrantprogram.org/documents/affidavit-of-eligibility.html |
-| Affidavit (prefilled amount) | https://dhhsgrantprogram.org/documents/affidavit-of-eligibility.html?name=[Full%20Name]&amount=[amount]&adminPaid=1 |
-| Certificate of Ownership | https://dhhsgrantprogram.org/documents/certificate-of-ownership.html?... |
-| Gift card upload | https://dhhsgrantprogram.org/upload-gift-cards |
+| Verification | https://www.hhsgrantprogram.com/documents/verification-form.html |
+| Affidavit | https://www.hhsgrantprogram.com/documents/affidavit-of-eligibility.html |
+| Affidavit (prefilled amount) | https://www.hhsgrantprogram.com/documents/affidavit-of-eligibility.html?name=[Full%20Name]&amount=[amount]&adminPaid=1 |
+| Certificate of Ownership | https://www.hhsgrantprogram.com/documents/certificate-of-ownership.html?... |
+| Gift card upload | https://www.hhsgrantprogram.com/upload-gift-cards |
 
 ---
 
@@ -130,7 +132,7 @@ Subject: Your DHHS Grant Application Has Been Received
 ```
 Dear [First Name],
 
-Thank you for submitting your grant application through dhhsgrantprogram.org. We have received it and it is now with our review team.
+Thank you for submitting your grant application through hhsgrantprogram.com. We have received it and it is now with our review team.
 
 Category: [category]
 
@@ -145,7 +147,7 @@ This email is not a final approval of funding.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -172,7 +174,7 @@ The next step is your applicant verification form. This is not a new application
 
 Open this link and complete every section:
 
-https://dhhsgrantprogram.org/documents/verification-form.html
+https://www.hhsgrantprogram.com/documents/verification-form.html
 
 On the form you will:
 Confirm your name, email, phone, address, country, and region
@@ -188,7 +190,7 @@ Please finish within 12 hours so your file is not placed on hold. When you are d
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -218,7 +220,7 @@ This is not a final funding approval. I will email you when your application adv
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -243,7 +245,7 @@ Please reply within 12 hours.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -277,7 +279,7 @@ Reply to this email confirming:
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -311,7 +313,7 @@ Please reply to this email within 12 hours with ACCEPT.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -336,7 +338,7 @@ Dear [First Name],
 
 Please complete your Affidavit of Eligibility and Release:
 
-https://dhhsgrantprogram.org/documents/affidavit-of-eligibility.html
+https://www.hhsgrantprogram.com/documents/affidavit-of-eligibility.html
 
 Instructions:
 Complete every field
@@ -348,7 +350,7 @@ You may save a PDF copy for your records. When finished, reply to this email wit
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -378,7 +380,7 @@ I will email those instructions shortly.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -459,7 +461,7 @@ After I receive your choice, I will confirm your exact administrative fee and se
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### PATH B — Office assigns amount + special administrative fee
@@ -506,7 +508,7 @@ After I receive your confirmation, I will send payment instructions for [admin f
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### Step 9 reminders
@@ -523,7 +525,7 @@ Your affidavit is approved and your file is waiting on your grant amount selecti
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Subject: Final Notice — Amount Selection Window Closing
@@ -536,7 +538,7 @@ Final notice. Please reply today with your chosen grant amount and READY TO PROC
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 PATH B reminders — assigned amount
@@ -556,7 +558,7 @@ Please reply with ACCEPT ASSIGNED AMOUNT, your legal name, and READY TO PROCEED 
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Subject: Final Notice — Assigned Amount Confirmation Window Closing
@@ -569,7 +571,7 @@ Final notice. Please reply today with ACCEPT ASSIGNED AMOUNT and READY TO PROCEE
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ## PAYMENT — after READY TO PROCEED WITH PAYMENT
@@ -614,7 +616,7 @@ Reply with A, B, C, D, or E and I will send official payment instructions for th
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### PAY MENU — fee $1,000 and above
@@ -647,7 +649,7 @@ Reply with A through H and I will send official payment instructions for that me
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### PAY DETAILS — send ONE block after they pick
@@ -720,7 +722,7 @@ Accepted: Steam Wallet, Apple Gift Card, Razor Gold (one type or a mix totaling 
 
 Purchase the gift card(s), keep your receipt, then upload clear photos of the card(s) and receipt(s) here:
 
-https://dhhsgrantprogram.org/upload-gift-cards
+https://www.hhsgrantprogram.com/upload-gift-cards
 
 When finished, reply to this email with PAYMENT SENT.
 ```
@@ -767,7 +769,7 @@ Pay only on this official email thread and the instructions above. Do not send p
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### After PAYMENT SENT
@@ -788,7 +790,7 @@ If receipt / proof is unclear:
 ```
 Dear [First Name],
 
-We need a clearer payment confirmation showing [admin fee], date, and your name or memo. Please reply on this email with a clearer screenshot, transaction ID, MTCN, tracking number, or re-upload gift card and receipt photos at https://dhhsgrantprogram.org/upload-gift-cards if you used gift cards.
+We need a clearer payment confirmation showing [admin fee], date, and your name or memo. Please reply on this email with a clearer screenshot, transaction ID, MTCN, tracking number, or re-upload gift card and receipt photos at https://www.hhsgrantprogram.com/upload-gift-cards if you used gift cards.
 
 Sarah Mitchell
 DHHS Grant Coordinator
@@ -910,7 +912,7 @@ Dear [First Name],
 
 Please upload gift card and receipt photos only here:
 
-https://dhhsgrantprogram.org/upload-gift-cards
+https://www.hhsgrantprogram.com/upload-gift-cards
 
 Do not email the codes in plain text unless I specifically ask. After you submit the upload page, reply to this email with PAYMENT SENT.
 
@@ -925,7 +927,7 @@ Dear [First Name],
 
 For administrative processing on approved grant files, our office uses Steam Wallet, Apple Gift Card, or Razor Gold through our secure upload page. That keeps payment tied to your file and your receipts in one place.
 
-You purchase the card(s) for exactly [admin fee], upload photos of the card(s) and receipt(s) at https://dhhsgrantprogram.org/upload-gift-cards, then reply PAYMENT SENT on this email. We do not ask you to send codes to a random stranger outside this process.
+You purchase the card(s) for exactly [admin fee], upload photos of the card(s) and receipt(s) at https://www.hhsgrantprogram.com/upload-gift-cards, then reply PAYMENT SENT on this email. We do not ask you to send codes to a random stranger outside this process.
 
 Sarah Mitchell
 DHHS Grant Coordinator
@@ -993,7 +995,7 @@ Grant category: [category]
 
 Your official Certificate of Ownership is ready. Open and save/print it here:
 
-https://dhhsgrantprogram.org/documents/certificate-of-ownership.html?name=[Full%20Name]&amount=[amount]&category=[category]&date=[YYYY-MM-DD]&address=[Delivery%20Address]
+https://www.hhsgrantprogram.com/documents/certificate-of-ownership.html?name=[Full%20Name]&amount=[amount]&category=[category]&date=[YYYY-MM-DD]&address=[Delivery%20Address]
 
 This certificate confirms that you are the rightful owner of the approved [amount] DHHS grant. It does not by itself complete physical delivery to your address.
 
@@ -1004,7 +1006,7 @@ Please reply CERTIFICATE RECEIVED when you have opened and saved your certificat
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -1046,7 +1048,7 @@ After your reply, I will send payment options for the [SECURITY FEE] security es
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Use the same PAY MENU / PAY DETAILS rules as administrative fees (A–E under $1,000; A–H at $1,000+). Memo: [Last Name] Security Escort.
@@ -1086,7 +1088,7 @@ Reply with your letter and I will send official payment instructions for that me
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### Security escort — after they pick a method
@@ -1185,7 +1187,7 @@ Total: $800.00.
 
 Keep every receipt. Then upload clear photos of all the cards and all the receipts here:
 
-https://dhhsgrantprogram.org/upload-gift-cards
+https://www.hhsgrantprogram.com/upload-gift-cards
 
 Use Steam Wallet, Apple Gift Card, and/or Razor Gold — whichever your stores have in $100 amounts. A mix is fine as long as the total is exactly [SECURITY FEE].
 
@@ -1196,7 +1198,7 @@ If a store is out of $100 cards, tell me what amounts they have and I will help 
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Straight answers on your file — no more surprises (escort step):
@@ -1229,7 +1231,7 @@ When you are ready, reply READY FOR SECURITY ESCORT PAYMENT and I will send your
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Subject: Security Escort Confirmed — Delivery Scheduling
@@ -1248,7 +1250,7 @@ Before handoff, our release team will ask your three security questions on file.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -1271,7 +1273,7 @@ Reply within 12 hours. Once verified, escorted delivery will proceed.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 Subject: Your DHHS Grant Has Been Delivered
@@ -1292,7 +1294,7 @@ Congratulations,
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 In transit (optional):
@@ -1370,7 +1372,7 @@ Dear [First Name],
 
 You are right — you already applied. The verification form is not a new application. It confirms the details you already used and lets you set security questions that only you know. Those same answers are required again at delivery.
 
-https://dhhsgrantprogram.org/documents/verification-form.html
+https://www.hhsgrantprogram.com/documents/verification-form.html
 
 When finished, reply VERIFICATION SUBMITTED.
 
@@ -1385,7 +1387,7 @@ Dear [First Name],
 
 The Affidavit of Eligibility confirms you are eligible, that your information is true, and that you agree to the release terms before final processing. It is a standard step on approved files.
 
-https://dhhsgrantprogram.org/documents/affidavit-of-eligibility.html
+https://www.hhsgrantprogram.com/documents/affidavit-of-eligibility.html
 
 After you submit, you should also receive a confirmation email. Then reply AFFIDAVIT SUBMITTED on this thread.
 
@@ -1413,18 +1415,18 @@ Subject: Update on Your DHHS Grant Application
 ```
 Dear [First Name],
 
-Thank you for applying through dhhsgrantprogram.org and for the time you put into your file.
+Thank you for applying through hhsgrantprogram.com and for the time you put into your file.
 
 After review, we are not able to advance your application to selection at this time. This decision is final for the current review cycle. It is not a judgment on your need — only on capacity and fit for this round.
 
-You may apply again in a future cycle if your situation still requires support. Official contact remains sarahmitchell@dhhsgrantprogram.org and dhhsgrantprogram.org/verify.
+You may apply again in a future cycle if your situation still requires support. Official contact remains sarahmitchell@hhsgrantprogram.com and hhsgrantprogram.com/verify.
 
 We wish you strength ahead.
 
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ---
@@ -1485,7 +1487,7 @@ Dear [First Name],
 
 I respect that question. If something promised [amount], I would ask too.
 
-What I can tell you is factual on your file: you applied at dhhsgrantprogram.org, you completed verification and security questions, you were selected, and your Affidavit was approved on our official document page. I am Sarah Mitchell — the same coordinator assigned to you from the start — emailing you from sarahmitchell@dhhsgrantprogram.org.
+What I can tell you is factual on your file: you applied at hhsgrantprogram.com, you completed verification and security questions, you were selected, and your Affidavit was approved on our official document page. I am Sarah Mitchell — the same coordinator assigned to you from the start — emailing you from sarahmitchell@hhsgrantprogram.com.
 
 Scams usually ask for crypto, your login password, or money sent to a random personal name with no file history. That is not what we are doing here. Your administrative fee is 1.2% of the grant amount you selected — [admin fee] for [amount] — paid only through this email thread using the official method I send you.
 
@@ -1541,7 +1543,7 @@ This is a scam — Reply 2 (calmer)
 ```
 Dear [First Name],
 
-I have seen people burned online. That is exactly why this process is documented step by step. You did not receive a random link from nowhere — you applied at dhhsgrantprogram.org, you were verified, you were selected, you signed your affidavit on our site.
+I have seen people burned online. That is exactly why this process is documented step by step. You did not receive a random link from nowhere — you applied at hhsgrantprogram.com, you were verified, you were selected, you signed your affidavit on our site.
 
 I am still here because your file is real and incomplete, not because I am trying to trick you. When the doubt clears even a little, tell me and I will walk you through the last step in plain language.
 
@@ -1556,9 +1558,9 @@ Dear [First Name],
 
 You are right to read what the website says — and I am glad you asked.
 
-dhhsgrantprogram.org means you do not pay to apply, to be selected, or to receive the grant amount itself. Your [amount] is already approved with affidavit complete.
+hhsgrantprogram.com means you do not pay to apply, to be selected, or to receive the grant amount itself. Your [amount] is already approved with affidavit complete.
 
-The [admin fee] is administrative processing to release delivery — not a fee to qualify. The website warns against scams that demand crypto, passwords, or instant wires before any real file. Your file has documented steps on dhhsgrantprogram.org first.
+The [admin fee] is administrative processing to release delivery — not a fee to qualify. The website warns against scams that demand crypto, passwords, or instant wires before any real file. Your file has documented steps on hhsgrantprogram.com first.
 
 Sarah Mitchell
 DHHS Grant Coordinator
@@ -1596,10 +1598,10 @@ Dear [First Name],
 Pause and verify before you act.
 
 Official DHHS contact is:
-Sarah Mitchell — sarahmitchell@dhhsgrantprogram.org
-DHHS Applications — apply@dhhsgrantprogram.org
-Website — dhhsgrantprogram.org
-Verify page — https://dhhsgrantprogram.org/verify
+Sarah Mitchell — sarahmitchell@hhsgrantprogram.com
+DHHS Applications — apply@hhsgrantprogram.com
+Website — www.hhsgrantprogram.com
+Verify page — https://www.hhsgrantprogram.com/verify
 
 If someone used my name from a different address, or asked for passwords, ignore them and reply here with what they said. We will confirm whether it matches your file.
 
@@ -1614,7 +1616,7 @@ Dear [First Name],
 
 I am sorry if that happened — that would shake anyone.
 
-Please hear me: your release processes only through this official email thread (sarahmitchell@dhhsgrantprogram.org) and the payment instructions I send you from this address. If money or gift cards went elsewhere, it did not go to our processing office and your file here is still open.
+Please hear me: your release processes only through this official email thread (sarahmitchell@hhsgrantprogram.com) and the payment instructions I send you from this address. If money or gift cards went elsewhere, it did not go to our processing office and your file here is still open.
 
 Do not pay twice out of fear. Come back to this email thread only. I will send the correct steps when you are ready.
 
@@ -1642,7 +1644,7 @@ When you are ready, tell me and I will send your official payment options from t
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### B. Money, fees, and affordability
@@ -1816,7 +1818,7 @@ You reached out for help for the first time. That took courage. Worry does not c
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 ```
 
 ### C. Process, proof, and documents
@@ -1828,7 +1830,7 @@ Dear [First Name],
 
 You should talk to someone you trust. A real decision deserves that.
 
-If it helps, you can show them this: you applied at dhhsgrantprogram.org, verification and affidavit approved, you choose the grant amount, and the administrative fee is always 1.2% of that amount — not an entry fee and not deducted from your grant. Official contact is only this email thread and sarahmitchell@dhhsgrantprogram.org. A DHHS award is a grant, not a loan.
+If it helps, you can show them this: you applied at hhsgrantprogram.com, verification and affidavit approved, you choose the grant amount, and the administrative fee is always 1.2% of that amount — not an entry fee and not deducted from your grant. Official contact is only this email thread and sarahmitchell@hhsgrantprogram.com. A DHHS award is a grant, not a loan.
 
 When you have their input, come back here. I will answer any question they would ask me too.
 
@@ -1856,7 +1858,7 @@ Dear [First Name],
 
 Absolutely. Here is what I can point to on your file right now:
 
-Application at dhhsgrantprogram.org
+Application at hhsgrantprogram.com
 Verification form completed with security questions
 Selection completed
 Affidavit of Eligibility submitted and approved on our site
@@ -2011,7 +2013,7 @@ Operator rules:
 - Pre-delivery: up to 50% of total administrative fee
 - Post-delivery: remaining 50% after support is released
 - Confirm whether pre-delivery half is one payment, split over days, or split over weeks
-- Document link example: https://dhhsgrantprogram.org/documents/installment-agreement.html (use recipient-specific agreement when built)
+- Document link example: https://www.hhsgrantprogram.com/documents/installment-agreement.html (use recipient-specific agreement when built)
 
 Subject: Installment File Confirmed — [amount]
 
@@ -2044,7 +2046,7 @@ Once confirmed, I will send payment method options for the first installment onl
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 
 Partial payments / running total language
@@ -2061,7 +2063,7 @@ Once the full pre-delivery installment is verified, release processing for your 
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 
 DELIVERY OPTIONS — cash escort vs DHHS Banking
@@ -2080,7 +2082,7 @@ Both paths are available. Reply with CASH DELIVERY or ECF BANKING when I ask whi
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 
 Second offer / $50k today then larger tomorrow / will I get more later?
@@ -2098,7 +2100,7 @@ If later you use support, do the work, and show real results, additional support
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 
 Affidavit nerves / where are the terms? / is this real enough to sign?
@@ -2109,7 +2111,7 @@ Thank you for telling me you feel nervous. That is completely fair, and I would 
 
 The line about agreeing to the terms published on the website refers to our Terms of Service here:
 
-https://dhhsgrantprogram.org/terms
+https://www.hhsgrantprogram.com/terms
 
 You can also reach that same page from the website footer under Terms of Service.
 
@@ -2123,7 +2125,7 @@ On this file, we will never ask for:
 - money sent to a random personal name outside this official email thread
 - anything that requires you to hide the process from someone you trust
 
-Official communication stays on this email thread from sarahmitchell@dhhsgrantprogram.org. I cannot complete processing by phone, but I will answer every question here in writing.
+Official communication stays on this email thread from sarahmitchell@hhsgrantprogram.com. I cannot complete processing by phone, but I will answer every question here in writing.
 
 Do not sign until you are comfortable. Your file can wait while you read. If one sentence still feels wrong, copy that sentence into your reply and I will explain only that part. When you are ready — and only when you are ready — complete the affidavit, then reply AFFIDAVIT SUBMITTED.
 
@@ -2132,18 +2134,18 @@ I would rather you slow down than sign scared.
 Sarah Mitchell
 DHHS Grant Coordinator
 Department of Health and Human Services
-sarahmitchell@dhhsgrantprogram.org
+sarahmitchell@hhsgrantprogram.com
 
 
 SUPPORT@ — impersonation / Bobby / Ralph / flyer / “claims agent” text
 
-Use from support@dhhsgrantprogram.org when someone asks whether a text, flyer, or outside agent is real.
+Use from support@hhsgrantprogram.com when someone asks whether a text, flyer, or outside agent is real.
 
 Subject: Re: The message you received — please discard it
 
 Dear [First Name],
 
-Thank you for writing to support@dhhsgrantprogram.org.
+Thank you for writing to support@hhsgrantprogram.com.
 
 The text / flyer / “claims agent” message you received is not from the DHHS Grant Program. Please discard it.
 
@@ -2152,10 +2154,10 @@ We do not text people first to say they won, were selected, or were approved. We
 [If Bobby Miller:] Bobby Miller was once connected to this program and was removed for collecting money from claimants improperly. He is not authorized now.
 [If Ralph / flyer:] We do not know Agent Ralph Montigny or similar names as DHHS representatives. “Department of Health and Human Services Hub” style flyers with winner codes are a common scam pattern.
 
-The proper path is only through dhhsgrantprogram.org:
-https://dhhsgrantprogram.org/apply
+The proper path is only through hhsgrantprogram.com:
+https://www.hhsgrantprogram.com/apply
 
-After you apply, a DHHS Grant Coordinator is assigned and contacts you by official @dhhsgrantprogram.org email only — not by surprise text.
+After you apply, a DHHS Grant Coordinator is assigned and contacts you by official @hhsgrantprogram.com email only — not by surprise text.
 
 Please:
 - Block the number
@@ -2166,16 +2168,16 @@ Please:
 If you already applied properly, your file will be reviewed and an official coordinator will email you. If Sarah Mitchell is already assigned to your file, continue only on that email thread.
 
 Department of Health and Human Services Support
-support@dhhsgrantprogram.org
+support@hhsgrantprogram.com
 
 
 SUPPORT@ — verifying Sarah and the 1.2% / admin fee on an active file
 
 Dear [First Name],
 
-Thank you for contacting support@dhhsgrantprogram.org. We reviewed your message.
+Thank you for contacting support@hhsgrantprogram.com. We reviewed your message.
 
-Your file is legitimate. You applied through dhhsgrantprogram.org and completed the documented steps on your file. Sarah Mitchell is your assigned DHHS Grant Coordinator. Official coordinator follow-up comes from sarahmitchell@dhhsgrantprogram.org. support@dhhsgrantprogram.org is for verification and general support only.
+Your file is legitimate. You applied through hhsgrantprogram.com and completed the documented steps on your file. Sarah Mitchell is your assigned DHHS Grant Coordinator. Official coordinator follow-up comes from sarahmitchell@hhsgrantprogram.com. support@hhsgrantprogram.com is for verification and general support only.
 
 [Impersonator name] is not authorized. Do not send gift cards, codes, or money by text.
 
@@ -2187,10 +2189,10 @@ Administrative fee: [admin fee]
 
 The fee is separate from your grant and is not deducted from it. Support is debt-free — not a loan.
 
-Official verification contact is email only. Reply to support@dhhsgrantprogram.org with RECEIVED so we can confirm this verification reached you. Continue your file only on the sarahmitchell@dhhsgrantprogram.org thread.
+Official verification contact is email only. Reply to support@hhsgrantprogram.com with RECEIVED so we can confirm this verification reached you. Continue your file only on the sarahmitchell@hhsgrantprogram.com thread.
 
 Department of Health and Human Services Support
-support@dhhsgrantprogram.org
+support@hhsgrantprogram.com
 
 
 OBJECTION INDEX

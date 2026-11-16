@@ -12,7 +12,7 @@ import {
 export const metadata = createMetadata({
   title: 'DHHS Official Emails — How to Verify a Message',
   description:
-    'Official DHHS support is support@dhhsgrantprogram.org. Application receipts: apply@dhhsgrantprogram.org. Coordinator follow-up: sarahmitchell@dhhsgrantprogram.org. We never ask for passwords.',
+    'Official DHHS support is support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. Coordinator follow-up: sarahmitchell@hhsgrantprogram.com. We never ask for passwords.',
   path: '/security',
 });
 

@@ -14,7 +14,7 @@ import Link from 'next/link';
 export const metadata = createMetadata({
   title: 'About DHHS  -  Department of Health and Human Services',
   description:
-    'Department of Health and Human Services (DHHS) Grant Program. Official application site: dhhsgrantprogram.org. One-time awards for medical care, housing, business, school, and more.',
+    'Department of Health and Human Services (DHHS) Grant Program. Official application site: hhsgrantprogram.com. One-time awards for medical care, housing, business, school, and more.',
   path: '/about',
 });
 

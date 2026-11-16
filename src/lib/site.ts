@@ -1,6 +1,6 @@
 /** Live primary host is www (apex 308 → www). Keep canonicals on www. */
-const DEFAULT_SITE_URL = 'https://www.dhhsgrantprogram.org';
-const PRODUCTION_HOST = 'dhhsgrantprogram.org';
+const DEFAULT_SITE_URL = 'https://www.hhsgrantprogram.com';
+const PRODUCTION_HOST = 'hhsgrantprogram.com';
 const PRODUCTION_WWW_HOST = `www.${PRODUCTION_HOST}`;
 
 function normalizeSiteUrl(raw: string | undefined): string {
@@ -45,7 +45,7 @@ export const SITE_DOMAIN = (() => {
   try {
     return new URL(SITE_URL).hostname;
   } catch {
-    return 'www.dhhsgrantprogram.org';
+    return 'www.hhsgrantprogram.com';
   }
 })();
 
@@ -58,8 +58,8 @@ export const PROGRAM_NAME = 'DHHS Grant Program';
 export const BRAND_NAME = SHORT_NAME;
 export const LEGAL_NAME = FULL_NAME;
 
-export const SUPPORT_EMAIL = 'support@dhhsgrantprogram.org';
-export const APPLY_FROM_EMAIL = 'apply@dhhsgrantprogram.org';
+export const SUPPORT_EMAIL = 'support@hhsgrantprogram.com';
+export const APPLY_FROM_EMAIL = 'apply@hhsgrantprogram.com';
 /** Desk name on application receipts — not a person */
 export const APPLY_FROM_NAME = 'DHHS Applications';
 
@@ -68,7 +68,7 @@ export const RESPONSE_HOURS = 24;
 export const COORDINATOR_NAME = 'Sarah Mitchell';
 export const COORDINATOR_TITLE = 'DHHS Grant Coordinator';
 /** Coordinator file follow-up — not used for public verify/support */
-export const COORDINATOR_EMAIL = 'sarahmitchell@dhhsgrantprogram.org';
+export const COORDINATOR_EMAIL = 'sarahmitchell@hhsgrantprogram.com';
 /** @deprecated Prefer COORDINATOR_EMAIL for file follow-up; SUPPORT_EMAIL for verify */
 export const CONTACT_EMAIL = COORDINATOR_EMAIL;
 
