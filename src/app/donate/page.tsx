@@ -16,7 +16,7 @@ import {
 export const metadata = createMetadata({
   title: 'Donate to the DHHS Grant Program',
   description:
-    'Support the DHHS Grant Program. Donations help DHHS keep awarding one-time grants for medical care, housing, business, education, teachers, seniors, and more.',
+    'Donate to the DHHS Grant Program. DHHS awards one-time grants every day for medical care, housing, business, education, teachers, retired teachers, seniors, and general goals. Your gift helps more of those grants go out.',
   path: '/donate',
 });
 
@@ -95,8 +95,8 @@ export default function DonatePage() {
       <DonateTicker />
       <PageHero
         label="Donate"
-        title="Help us keep awarding grants"
-        description={`If you are here to give, you already understand something simple. This program changes lives. Your donation helps the next award go out across every category ${SHORT_NAME} funds.`}
+        title="Donate to the DHHS Grant Program"
+        description="DHHS awards one-time grants every day for medical care, housing, business, education, teachers, retired teachers, seniors, and general goals. People and companies who believe in that work donate so more grants can go out. If that is you, this is the page."
       />
 
       <section className="border-b border-[var(--gp-line)] py-10 md:py-12">

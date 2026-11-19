@@ -93,7 +93,7 @@ export const ORG_BLURB =
 
 /** Hero — what the program is and who it serves */
 export const HERO_INTRO =
-  'Billions in DHHS grants are awarded to people, every day. The DHHS Grant Program issues one-time awards to individuals — for medical care, housing, business ventures, education, educators, retirees, seniors, and other personal or professional goals. Apply here on the official site.';
+  'Billions in DHHS grants go to people, every day. The help can be for medical care, a home, a business, school, teachers, retirees, or seniors. If you want a grant, you apply here. We do not text you first.';
 
 /** Shown on eligibility sections — not the hero */
 export const ELIGIBILITY_OPEN =

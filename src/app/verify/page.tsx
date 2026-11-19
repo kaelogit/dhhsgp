@@ -44,7 +44,7 @@ const verifyFaqs = [
 ];
 
 export const metadata = createMetadata({
-  title: 'Verify a DHHS Grant Text or Email',
+  title: 'Is this DHHS grant text real?',
   description: VERIFY_DESCRIPTION,
   path: '/verify',
 });
@@ -64,8 +64,8 @@ export default function VerifyPage() {
         <div className="container-page max-w-3xl text-center">
           <p className="section-label">Verify</p>
           <h1 className="mt-3 text-4xl">
-            Someone contacted you about a DHHS grant?
-            <span className="mt-2 block text-[var(--gp-blue)]">Verify it here first.</span>
+            Is this DHHS grant
+            <span className="mt-2 block text-[var(--gp-blue)]">text real?</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--gp-muted)]">
             Did someone reach out randomly — by text, email, Facebook, Instagram, or another social
@@ -139,14 +139,12 @@ export default function VerifyPage() {
               </div>
             ))}
           </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/scam-report" className="btn-primary">
-              Begin scam recovery
-            </Link>
-            <Link href="/apply" className="btn-outline">
+          <p className="text-center text-sm text-[var(--gp-muted)]">
+            Ready to apply?{' '}
+            <Link href="/apply" className="font-medium text-[var(--gp-blue)] hover:underline">
               Start your application
             </Link>
-          </div>
+          </p>
         </div>
       </section>
     </div>

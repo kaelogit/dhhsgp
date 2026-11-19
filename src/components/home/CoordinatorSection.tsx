@@ -4,7 +4,7 @@ import { RESPONSE_HOURS } from '@/lib/site';
 
 export function CoordinatorSection() {
   return (
-    <section className="bg-white py-20">
+    <section data-nosnippet className="bg-white py-20">
       <div className="container-page">
         <div className="card-flat overflow-hidden lg:grid lg:grid-cols-2">
           <div className="flex flex-col justify-center bg-[var(--gp-navy)] p-10 text-white lg:p-12">

@@ -70,7 +70,7 @@ export function StatsSection() {
   }, []);
 
   return (
-    <section ref={ref} className="bg-white py-20">
+    <section data-nosnippet ref={ref} className="bg-white py-20">
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <p className="section-label">By the numbers</p>

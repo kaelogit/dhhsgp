@@ -27,7 +27,7 @@ export function HeroSection() {
       <div className="container-page relative flex min-h-[72vh] flex-col items-center justify-center py-20 text-center lg:py-28">
         <p className="section-label-accent">{FULL_NAME}</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-bold text-white md:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
-          The official page to apply for DHHS grants.
+          DHHS grants for a home, school, health, or a business.
         </h1>
         <div className="accent-bar mx-auto mt-5" />
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/85 md:text-lg">

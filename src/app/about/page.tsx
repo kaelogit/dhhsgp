@@ -12,9 +12,9 @@ import {
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'About DHHS  -  Department of Health and Human Services',
+  title: 'About the DHHS Grant Program',
   description:
-    'Department of Health and Human Services (DHHS) Grant Program. Official application site: hhsgrantprogram.com. One-time awards for medical care, housing, business, school, and more.',
+    'The DHHS Grant Program gives one-time grants for medical care, a home, a business, school, teachers, and seniors. Apply on hhsgrantprogram.com.',
   path: '/about',
 });
 

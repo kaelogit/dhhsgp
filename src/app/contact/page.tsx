@@ -10,7 +10,7 @@ import {
 import Link from 'next/link';
 
 export const metadata = createMetadata({
-  title: 'Contact DHHS — Official Email for Applicants',
+  title: 'Contact the DHHS Grant Program',
   description:
     'Official support: support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. After you apply, your coordinator contacts you from sarahmitchell@hhsgrantprogram.com.',
   path: '/contact',

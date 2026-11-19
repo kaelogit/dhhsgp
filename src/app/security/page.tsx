@@ -10,7 +10,7 @@ import {
 } from '@/lib/site';
 
 export const metadata = createMetadata({
-  title: 'DHHS Official Emails — How to Verify a Message',
+  title: 'Is this DHHS grant email real?',
   description:
     'Official DHHS support is support@hhsgrantprogram.com. Application receipts: apply@hhsgrantprogram.com. Coordinator follow-up: sarahmitchell@hhsgrantprogram.com. We never ask for passwords.',
   path: '/security',

@@ -26,7 +26,7 @@ const accents = [
 
 export function ProgramsSection() {
   return (
-    <section className="bg-[var(--gp-paper)] py-20">
+    <section data-nosnippet className="bg-[var(--gp-paper)] py-20">
       <div className="container-page">
         <p className="section-label">Programs</p>
         <h2 className="mt-3 max-w-2xl text-3xl md:text-4xl">Who DHHS grants are for</h2>

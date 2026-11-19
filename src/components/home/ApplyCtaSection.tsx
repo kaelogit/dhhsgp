@@ -4,7 +4,7 @@ import { RESPONSE_HOURS } from '@/lib/site';
 
 export function ApplyCtaSection() {
   return (
-    <section className="relative overflow-hidden bg-[var(--gp-navy)] py-20">
+    <section data-nosnippet className="relative overflow-hidden bg-[var(--gp-navy)] py-20">
       <div
         className="absolute inset-0 opacity-30"
         style={{
